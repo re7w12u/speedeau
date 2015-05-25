@@ -33,11 +33,8 @@ namespace SPEEDEAU.ADMIN.Util
         {
             get
             {
-                string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-                return SPContext.Current.Web.Lists[listName];
-
+                return MSHHelper.ListeDeSuivi;
             }
         }
-
     }
 }

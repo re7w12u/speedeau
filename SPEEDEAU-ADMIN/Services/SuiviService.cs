@@ -57,10 +57,10 @@ namespace SPEEDEAU.ADMIN.Services
         /// <returns></returns>
         public SPListItem GetItemForCodificationSystem(string codificationsystem)
         {
-            SPWeb web = SPContext.Current.Web;
-            string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList list = web.Lists[listName];
-            return CodificationHelper.GetItemForCodification(list, codificationsystem);
+            //SPWeb web = SPContext.Current.Web;
+            //string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList list = web.Lists[listName];            
+            return CodificationHelper.GetItemForCodification(MSHHelper.ListeDeSuivi, codificationsystem);
         }
 
         /// <summary>
@@ -70,10 +70,11 @@ namespace SPEEDEAU.ADMIN.Services
         /// <returns></returns>
         public SuiviEntity GetDocLinkedInfo(int id, SPWeb web)
         {
-            if (web == null) throw new NullReferenceException("We need a proper SPWeb object here");
-            string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //if (web == null) throw new NullReferenceException("We need a proper SPWeb object here");
+            //string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
 
-            SPList list = web.Lists[listName];
+            //SPList list = web.Lists[listName];
+            SPList list = MSHHelper.ListeDeSuivi;
             SPListItem item = list.GetItemById(id);
             if (!item.Properties.Contains(PROPERTY_BAG_NAME)) return null;
 
@@ -89,9 +90,10 @@ namespace SPEEDEAU.ADMIN.Services
                
         public string CodificationSystem(int suivi_id)
         {
-            SPWeb web = SPContext.Current.Web;
-            string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList list = web.Lists[listName];
+            //SPWeb web = SPContext.Current.Web;
+            //string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList list = web.Lists[listName];
+            SPList list = MSHHelper.ListeDeSuivi;
             SPListItem item = list.GetItemById(suivi_id);
             string fieldName = Localization.GetResource(ResourceFieldsKeys.CODIFICATION_SYSTEM, ResourceFiles.FIELDS);
             return item.EnsureValue<string>(fieldName);
@@ -104,7 +106,8 @@ namespace SPEEDEAU.ADMIN.Services
         {
             Suivi result = new Suivi();
             string listSuiviName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList list = web.Lists[listSuiviName];
+            //SPList list = web.Lists[listSuiviName];
+            SPList list = MSHHelper.ListeDeSuivi;
             SPListItem item = list.GetItemById(suivi_id);
 
             HydrateIH1600FromDocLibraryItem(item, result);
@@ -155,8 +158,9 @@ namespace SPEEDEAU.ADMIN.Services
 
         public SPListItem UpdateSuivi(Suivi suivi, SPWeb web)
         {
-            string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList listSuivi = web.Lists[listName];
+            //string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList listSuivi = web.Lists[listName];
+            SPList listSuivi = MSHHelper.ListeDeSuivi;
 
             SPListItem item = listSuivi.GetItemById(suivi.ID);
             SetItemValues(item, suivi);
@@ -167,8 +171,9 @@ namespace SPEEDEAU.ADMIN.Services
 
         public SPListItem NewSuivi(Suivi suivi, SPWeb web)
         {
-            string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList listSuivi = web.Lists[listName];
+            //string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList listSuivi = web.Lists[listName];
+            SPList listSuivi = MSHHelper.ListeDeSuivi;
 
             SPListItem item = listSuivi.Items.Add();
             SetItemValues(item, suivi);

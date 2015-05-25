@@ -29,16 +29,18 @@ namespace SPEEDEAU.ADMIN.Services
 
         public bool CanChangeListeDeSuivi()
         {
-            using (SPSite site = MSHHelper.Site)
-            {
-                using (SPWeb web = site.OpenWeb())
-                {
-                    string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-                    SPList list = web.Lists[listName];
-                    return list.DoesUserHavePermissions(SPBasePermissions.EditListItems);
-                }
-            }
+            //using (SPSite site = MSHHelper.Site)
+            //{
+            //    using (SPWeb web = site.OpenWeb())
+            //    {
+            //        string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //        SPList list = web.Lists[listName];
+            //        return list.DoesUserHavePermissions(SPBasePermissions.EditListItems);
+            //    }
+            //}
 
+            SPList list = MSHHelper.ListeDeSuivi;
+            return list.DoesUserHavePermissions(SPBasePermissions.EditListItems);
         }
     }
 }

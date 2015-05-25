@@ -81,7 +81,7 @@ namespace SPEEDEAU.Layouts.SPEEDEAU
             // do not validate is codification is forced
             if (this.Page.Request.Params.Get("__EVENTTARGET") != "ForceBtn")
             {
-                #region // look for codification match in list de suivi
+                #region look for codification match in list de suivi
                 //                string listName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
                 //                SPList list = SPContext.Current.Web.Lists[listName];
                 //                string value = Codification.Text;

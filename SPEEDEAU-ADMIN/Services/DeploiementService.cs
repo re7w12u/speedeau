@@ -15,17 +15,19 @@ namespace SPEEDEAU.ADMIN.Services
     {
         #region IDeploiementService implementation
 
-        public Deploiement GetDeploiementFromSuiviItem(int id, SPWeb web, bool checkForExistingItemInDep)
+        public Deploiement GetDeploiementFromSuiviItem(int id, SPWeb currentWeb, bool checkForExistingItemInDep)
         {
             // get item from liste de suivi
             Deploiement result = new Deploiement();
-            string listSuiviName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList list = web.Lists[listSuiviName];
-            SPListItem item = list.GetItemById(id);
+            //string listSuiviName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList list = web.Lists[listSuiviName];
+
+            SPList listSuivi = MSHHelper.ListeDeSuivi;
+            SPListItem item = listSuivi.GetItemById(id);
 
             // check if any deploiement for codificationsystem
             string listDepName = Localization.GetResource(ResourceListKeys.DEPLOIEMENT_LISTNAME, ResourceFiles.CORE);
-            SPList depList = web.Lists[listDepName];
+            SPList depList = currentWeb.Lists[listDepName];
             object codificationSystem = item[CodificationHelper.GetCodeSystemeFieldName];
 
             if (codificationSystem == null || String.IsNullOrWhiteSpace(codificationSystem.ToString())) return null;

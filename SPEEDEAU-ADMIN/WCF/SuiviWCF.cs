@@ -109,8 +109,9 @@ namespace SPEEDEAU.ADMIN.WCF
             SPWeb web = SPContext.Current.Web;
 
             // get item from list de suivi - which tells us the criteria (Indice) 
-            string listSuiviName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
-            SPList suiviList = web.Lists[listSuiviName];
+            //string listSuiviName = Localization.GetResource(ResourceListKeys.SUIVI_LISTNAME, ResourceFiles.CORE);
+            //SPList suiviList = web.Lists[listSuiviName];
+            SPList suiviList = MSHHelper.ListeDeSuivi;
             IEnumerable<SPListItem> suiviItems = CodificationHelper.GetItemsForCodification(suiviList, codifSystem);
 
             // we are supposed to get exactly one match from liste de suivi. 
