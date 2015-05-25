@@ -1,0 +1,6 @@
+﻿
+/* Style used for site wide change - loaded in the masterpage */
+
+.ms-dlgCloseBtn{
+    display:none;
+}

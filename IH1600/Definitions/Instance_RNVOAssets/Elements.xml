@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ListInstance
+    Id="RNVO_Assets"
+    Title="RNVO Assets"
+    Description="Create a document library to store materials related to RNVO features."
+    TemplateType="101"
+    Url="RNVO_Assets"
+    OnQuickLaunch="FALSE"
+    FeatureId="00bfea71-e717-4e80-aa17-d0c71b360101"
+    
+    />
+
+</Elements>

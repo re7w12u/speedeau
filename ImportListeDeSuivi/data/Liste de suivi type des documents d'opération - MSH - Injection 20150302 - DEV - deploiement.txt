@@ -1,0 +1,1094 @@
+$$	Titre	Famille documentaire	Nature documentaire	Nature documentaire libellé	Projet	Opération	Site DPIH	Requis	Unité	Code Centrale	Code Projet	Niveau d'études	Découpage - lot	Système élémentaire 	Complément	Numéro Chrono	Codification	Type MSH	RT	Format demandé	Stockage	Rédaction	Temps estimé (h)	Reste à faire	Fourniture	Date cible	Observations 	Livr. Exploitant	Date Exploitant	Format Exploitant	Stockage Exploitant	Livr. MCO	Date MCO	Format MCO	Stockage MCO	Livr. Intégrateur	Date Intégrateur	Format Intégrateur	Stockage Intégrateur	Livr. DTG	Date DTG	Format DTG	Stockage DTG	Livr. Tableautier	Date Tableautier	Format Tableautier	Stockage Tableautier
+$$	Note d'organisation de l'affaire	Déploiement	b7c6905b-2b29-4d4d-9216-6aed263c3ac0	DEPLOIEMENT / B- Organisation et gestion de l’opération / B1  Plan de management - organisation de l’opération	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	*		NOA	000001	IH-RMOIH-MSHD-*-*-NOA-000 001		R	Word - A4	Rédacteur+ GED	CHO	0		M04			True		Word - A4		False				False		Word - A4		False				False			
+$$	Fiche de vie de l'affaire	Déploiement	4ccc3377-b702-4570-99ae-76c7b609f58e	DEPLOIEMENT / B- Organisation et gestion de l’opération / B2  PAQ - traceurs de l’opération	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	*			000001	IH-RMOIH-MSHD-*-*--000 001		R			CHO	0		M05			False				False				False		Word - A4		False				False			
+$$	PV de jalon 	Déploiement	4ccc3377-b702-4570-99ae-76c7b609f58e	DEPLOIEMENT / B- Organisation et gestion de l’opération / B2  PAQ - traceurs de l’opération	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R	PDF - A4		CHO	0					True		PDF - A4		False				False				False				False			
+$$	Planning	Déploiement	c8796ff7-8ea4-4787-b34e-a578cd2bc164	DEPLOIEMENT / B- Organisation et gestion de l’opération / B3  Planning	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	*		PLNG	000001	IH-RMOIH-MSHD-*-*-PLNG-000 001		R	MS Project		CHO	0		M05			True	M14	MS Project	Numérique	False				True	M07	MS Project	Numérique	False				False			
+$$	Commande d'execution de construction des armoires	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			CHO	0		M08A			False				False				True	M08A			False				True	M08A		
+$$	Commande éxecution réalisation	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			CHO	0		M08A			False				False				True	M08A			False				False			
+$$	Note d'Organisation Santé Sécurité Environnement	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	*		NOSSE	000001	IH-RMOIH-MSHD-*-*-NOSSE-000 001		R	Word - A4	Rédacteur+ GED	CHO	0		M05			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	Plan global d'essais	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	*		PGE	000001	IH-RMOIH-MSHD-*-*-PGE-000 001		R	Word - A4	Rédacteur+ GED	CHO	0		M05			True	M14	Word - A4	Numérique	False				True	M07	Word - A4	Numérique	False				False			
+$$	PGE complété et fiches d'essais	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	*		*	000001	IH-RMOIH-MSHD-X-*-*-000 001		R	Word - A4		CHO	0		M08A		Meme document que le PGE APD, monté d'indice	True		Word - A4		True	M14	PDF - A4	Numérique	True	M08A	Word - A4		False				False			
+$$	PV d'essai de requalification fonctionnelle d'ensemble	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000006	IH-RMOIH-MSHD-X-IEGCC-PV-000 006		R	PDF - A4		CHO	0		M13			True	M13 - M14	PDF - A4		False				True	M13	PDF - A4		False				False			
+$$	PV d'essai de requalification fonctionnelle de 2eme rang de conduite	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000008	IH-RMOIH-MSHD-X-IEGCC-PV-000 008		R	PDF - A4		CHO	0		M14			True		PDF - A4		False				False				False				False			
+$$	PV d'essai de remise en exploitation	Déploiement	8e9dae85-d122-472e-b7a8-0ee6f7d5220e	DEPLOIEMENT / G- Clôture d’affaire / G1  PV (réception, parfait achèvement, transfert à l’exploitant, transfert à la  maintenance)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000007	IH-RMOIH-MSHD-X-IEGCC-PV-000 007		R	PDF - A4		CHO	0		M13			True	M13 - M14	PDF - A4		False				False				False				False			
+$$	REX	Déploiement	2de16e7b-da9d-460b-bca0-9c60ad793584	DEPLOIEMENT / G- Clôture d’affaire / G3  Document de bilan d’opération, de REX (rapport de chantier)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	*		REX	000001	IH-RMOIH-MSHD-X-*-REX-000 001		R	Power Point		CHO	0		M15			True		Power Point		False				False				False				False			
+$$	FEP Réalisation	Déploiement	2de16e7b-da9d-460b-bca0-9c60ad793584	DEPLOIEMENT / G- Clôture d’affaire / G3  Document de bilan d’opération, de REX (rapport de chantier)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		FEP	000002	IH-RMOIH-MSHD-X-IEGCC-FEP-000 002		R			CHO	0		M15			False				False				True	M15			False				False			
+$$	APS et expertises éventuelles	Déploiement	1367347d-b039-4e20-b8b5-fc9023c627f6	DEPLOIEMENT / C- Conception / C5  APS	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	S	*			000001	IH-RMOIH-MSHD-S-*--000 001		R	Word - A4		EDF	0		M03		Dissocier les differents APS	True	M14	Word - A4	Numérique	False				False				False				False			
+$$	CR réunion de chantier	Déploiement	dbc8872c-e770-4054-8a37-ce05b7f09c42	DEPLOIEMENT / E-Réalisation  / E2  Suivi de chantier - comptes rendus de réunions	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	*		COND		IH-RMOIH-MSHD-X-*-COND-000 000		R	Word - A4		EDF	0		M10 + Mà j hebdo			True	M14	Word - A4		False				True	M10 + Mà j hebdo	Word - A4		False				False			
+$$	Fiche de non conformité	Déploiement	158e25f1-3d87-4c57-9752-1eef06e0636d	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F1  Relations avec les fournisseurs	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*			FNC		IH-RMOIH-MSHD-*--FNC-000 000		R			EDF	0		M07 Des que nécessaire			False				False				True	M07			False				False			
+$$	PV d'essai de requalification intrinsèque de fin de montage	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000003	IH-RMOIH-MSHD-X-IEGCC-PV-000 003		R	PDF - A4		EDF	0		M12A			True		PDF - A4		False				True	M12A	PDF - A4		False				False			
+$$	PV de prise en charge pour consignation	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000004	IH-RMOIH-MSHD-X-IEGCC-PV-000 004		R	PDF - A4		EDF	0		M12A			True		PDF - A4		False				True	M12A	PDF - A4		False				False			
+$$	PV d'essai de requalification fonctionnelle de sous ensemble	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000005	IH-RMOIH-MSHD-X-IEGCC-PV-000 005		R	PDF - A4		EDF	0		M12B			True		PDF - A4		False				True	M12B	PDF - A4		False				False			
+$$	Courrier de prononcement de la mise en service industrielle	Déploiement	8e9dae85-d122-472e-b7a8-0ee6f7d5220e	DEPLOIEMENT / G- Clôture d’affaire / G1  PV (réception, parfait achèvement, transfert à l’exploitant, transfert à la  maintenance)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			EDF	0		M13+30j			True	M14			False				True	M13+30j			False				False			
+$$	PV de transfert en MCO	Déploiement	8e9dae85-d122-472e-b7a8-0ee6f7d5220e	DEPLOIEMENT / G- Clôture d’affaire / G1  PV (réception, parfait achèvement, transfert à l’exploitant, transfert à la  maintenance)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000009	IH-RMOIH-MSHD-X-IEGCC-PV-000 009		R	PDF - A4		EDF	0		M14			True	M14	PDF - A4	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	PV de remise de l'ouvrage (PVRO)	Déploiement	8e9dae85-d122-472e-b7a8-0ee6f7d5220e	DEPLOIEMENT / G- Clôture d’affaire / G1  PV (réception, parfait achèvement, transfert à l’exploitant, transfert à la  maintenance)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000010	IH-RMOIH-MSHD-X-IEGCC-PV-000 010		R	PDF - A4		EDF	0		M14			True	M14	PDF - A4	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	CR de la réunion d'enclenchement d'APD	Déploiement	a347f34c-523c-4caf-b665-a946f40090a2	DEPLOIEMENT / A -Relations avec la MOA / A4  Comptes rendus de réunions	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		COND	000001	IH-RMOIH-MSHD-D-*-COND-000 001		R	Word - A4		IE	0		M04			True		Word - A4		False				False				False				False			
+$$	Note de codification de l'affaire	Déploiement	1f9b1f3e-dc26-46fb-8b4c-3dc34d55d45d	DEPLOIEMENT / B- Organisation et gestion de l’opération / B1  Plan de management - organisation de l’opération	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*			000001	IH-RMOIH-MSHD-D-*--000 001	NT	R	Word - A4	Rédacteur+ GED	IE	0		M04		A fournir dès l'enclenchement de l'APD	True	M14	Word - A4	Papier	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Papier	False				False			
+$$	Liste des plans et schémas existants	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*			000002	IH-RMOIH-MSHD-D-*--000 002	LE	R	Excel - A4	Rédacteur+ GED	IE	0		M04		A élaborer dès l'enclenchement de l'APD	True	M14	Excel - A4	Numérique	False				True	M07	Excel - A4	Numérique	False				False			
+$$	Liste des documents d'entrées pour l'APD	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*			000003	IH-RMOIH-MSHD-D-*--000 003		R	Excel - A4		IE	0		M05			True		Excel - A4		False				False		Excel - A4		False				False			
+$$	Schéma architecture réseau du GU avant MSH	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	LTT		100001	IH-RMOIH-MSHD-D-000-LTT-100 001	SF	T	Autocad		IE	0		M05			True		Autocad		False				True	M07	Autocad		False				False			
+$$	Schéma architecture réseau du GU après MSH	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	LTT		100002	IH-RMOIH-MSHD-D-000-LTT-100 002	SF	T	Autocad		IE	0		M05			True	M13 - M14	Autocad	Papier	True	M14	PDF - A4	Numérique	True	M07	Autocad	Papier	False				False			
+$$	Schéma architecture réseau RLI avant MSH	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	LTT		100003	IH-RMOIH-MSHD-D-000-LTT-100 003	SF	T	Autocad		IE	0		M05			True		Autocad		False				True	M07	Autocad		False				False			
+$$	Schéma architecture réseau RLI après MSH	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	LTT		100004	IH-RMOIH-MSHD-D-000-LTT-100 004	SF	T	Autocad		IE	0		M05			True	M13 - M14	Autocad	Papier	True	M14	PDF - A4	Numérique	True	M07	Autocad	Papier	False				False			
+$$	Schéma unifilaire avant rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		100001	IH-RMOIH-MSHD-D-050-LBT-100 001	SF	T	Autocad		IE	0		M05			True		Autocad		False				True	M07	Autocad		False				False			
+$$	Schéma unifilaire après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		100002	IH-RMOIH-MSHD-D-050-LBT-100 002	SF	T	Autocad		IE	0		M05			True		Autocad		True	M14	PDF - A4	Numérique	True	M07	Autocad		False				False			
+$$	Plan d'implantation des matèriels BT	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		100003	IH-RMOIH-MSHD-D-050-LBT-100 003	IM	T	Autocad		IE	0		M05			True	M14	Autocad	Papier	False				True	M07	Autocad	Papier	False				False			
+$$	Liste des consommateurs	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		100004	IH-RMOIH-MSHD-D-050-LBT-100 004	LE	T	Excel - A4		IE	0		M05			True	M14	Excel - A4	Numérique	False				True	M07	Excel - A4	Numérique	False				False			
+$$	[Eventuellement] dimensionnement du GE	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		100005	IH-RMOIH-MSHD-D-050-LBT-100 005	NT	T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Carnet de câbles existants	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100001	IH-RMOIH-MSHD-D-050-*-100 001	LE	T	Excel - A4		IE	0		M05			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Liste des capteurs SG	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100002	IH-RMOIH-MSHD-D-050-*-100 002	LE	T	Excel - A4		IE	0		M05			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Liste des alarmes	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		100001	IH-RMOIH-MSHD-D-000-*-100 001	LE	T	Excel - A4		IE	0		M05			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Liste des capteurs des groupes	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	001	*		100001	IH-RMOIH-MSHD-D-001-*-100 001	LE	T	Excel - A4		IE	0		M05			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Plan de régulation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	001	KRN		100001	IH-RMOIH-MSHD-D-001-KRN-100 001		T	Autocad		IE	0		M05			True		Autocad		False				True	M07	Autocad		False				False			
+$$	Plan de réfrigération	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	001	*		100002	IH-RMOIH-MSHD-D-001-*-100 002		T	Autocad		IE	0		M05			True		Autocad		False				True	M07	Autocad		False				False			
+$$	 Liste non exhaustive des ES des groupes	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	001	KAP		100002	IH-RMOIH-MSHD-D-001-KAP-100 002	ES	T	Excel - A4		IE	0		M05			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Schéma des circuits et instrumentation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100003	IH-RMOIH-MSHD-D-050-*-100 003	SF	T	Autocad		IE	0		M05			True	M14	Autocad	Numérique	True	M14	PDF - A4	Numérique	True	M07	Autocad	Numérique	False				False			
+$$	Liste des livrables du Titulaire	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		*	000005	IH-RMOIH-MSHD-C-*-*-000 005		R	Excel - A4	Rédacteur+ GED	IE	0		M06			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	Liste des documents d'entrée du Titulaire	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		*	000006	IH-RMOIH-MSHD-C-*-*-000 006		R	Excel - A4	Rédacteur+ GED	IE	0		M06			True		Excel - A4		False				True	M07	Excel - A4		False				False			
+$$	APD Chapitre 1 :Présentation	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000001	IH-RMOIH-MSHD-D-*-APD-000 001		R	Word - A4	Rédacteur+ GED	IE	0		M05		"Fournir si possible 15 jours avant M5
+Yc liste des pièces de rechange"	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Autocad		False				False			
+$$	APD Chapitre 2 : Architecture, Données et Conduite	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000002	IH-RMOIH-MSHD-D-*-APD-000 002		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Excel - A4		False				False			
+$$	APD CCA ou note sur l'équipement de conduite	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	CDT			000001	IH-RMOIH-MSHD-D-CDT--000 001		R	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	APD Chapitre 3 : Auxiliaire	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000003	IH-RMOIH-MSHD-D-*-APD-000 003		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Word - A4	Numérique	False				False			
+$$	APD Chapitre 4 : Services Généraux	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000004	IH-RMOIH-MSHD-D-*-APD-000 004		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Word - A4		False				False			
+$$	APD CIST	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R	Word - A4		IE	0		M05			True		Word - A4		False				False		Word - A4		False				False			
+$$	APD Chapitre 5 : Groupes	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000005	IH-RMOIH-MSHD-D-*-APD-000 005		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Word - A4		False				False			
+$$	APD Chapitre 6 : Planning et Scénario de Migration	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000006	IH-RMOIH-MSHD-D-*-APD-000 006		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A5	Numérique	False		Word - A4	Numérique	False				False			
+$$	DESCRIPTION DE L'APIT	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APIT	000001	IH-RMOIH-MSHD-D-*-APIT-000 001		R	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	APD Chapitre 7 : Chiffrage	Déploiement	422ef5b4-1fe1-4711-84e9-3809ecb2cf5c	DEPLOIEMENT / C- Conception / C6  APD	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		APD	000007	IH-RMOIH-MSHD-D-*-APD-000 007		R	Word - A4		IE	0		M05		Fournir si possible 15 jours avant M5	True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier Spécification Système IHM de l'IMR	Déploiement	578e2cc4-2537-4755-b1b5-0d5f9247b0f2	DEPLOIEMENT / C- Conception / C8      DSS	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	KAG		100002	IH-RMOIH-MSHD-D-050-KAG-100 002		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Dossier Spécification Système simulateur	Déploiement	578e2cc4-2537-4755-b1b5-0d5f9247b0f2	DEPLOIEMENT / C- Conception / C8      DSS	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	KAG		100003	IH-RMOIH-MSHD-D-050-KAG-100 003		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	DSS SG ou questionnaire	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	KAG		100001	IH-RMOIH-MSHD-D-050-KAG-100 001	NF	T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	DSS groupes ou questionnaire	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	001	KAP		100001	IH-RMOIH-MSHD-D-001-KAP-100 001	NF	T	Word - A4		IE	0		M05		A dupliquer si les groupes sont différents	True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Note plan de protection des groupes et des services généraux	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	*		PROT	000001	IH-RMOIH-MSHD-D-*-PROT-000 001		R	Word - A4		IE	0		M04 +X Jours			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	Synoptique de basculement (scénario de transfert)	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100004	IH-RMOIH-MSHD-D-050-*-100 004	SF	T	Visio		IE	0		M05			True		Visio		False				True	M07	Visio		False				False			
+$$	Implantation des matèriels	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100005	IH-RMOIH-MSHD-D-050-*-100 005	IM	T	Visio		IE	0		M05		 	True		Visio		False				True	M07	Visio		False				False			
+$$	Alimentations pendant les phases transitoires	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	*		100006	IH-RMOIH-MSHD-D-050-*-100 006	SF	T			IE	0		M05			False				False				True	M07			False				False			
+$$	Note technique du prélèvement d'amiante	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		100001	IH-RMOIH-MSHD-X-000-*-100 001	NT	T	Word - A4	Rédacteur+ GED	IE	0		M05		Si besoin, en fonction du  DTA site	True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Note technique relevés du câble de la VDT	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	VTC		100001	IH-RMOIH-MSHD-X-000-VTC-100 001	NT	T	Word - A4	Rédacteur+ GED	IE	0		M05		Si besoin d'expertise	True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	CCTP-A Chapitre 1 : Présentation générale de l'affaire	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000001	IH-RMOIH-MSHD-C-*-CCTPA-000 001		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 2 : Architecture, données, Conduite	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000002	IH-RMOIH-MSHD-C-*-CCTPA-000 002		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 3 : Auxiliaires	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000003	IH-RMOIH-MSHD-C-*-CCTPA-000 003		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 4 : Services généraux	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000004	IH-RMOIH-MSHD-C-*-CCTPA-000 004		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 5 : Groupes	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000005	IH-RMOIH-MSHD-C-*-CCTPA-000 005		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 6 : Planning et scénario de migration	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000006	IH-RMOIH-MSHD-C-*-CCTPA-000 006		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	CCTP-A -Chapitre 7 : Liste des FDP à utiliser	Déploiement	c89fc38c-e0e2-4873-842d-2f9679ca0fab	DEPLOIEMENT / D-Achats / D1  CCTP-A	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	*		CCTPA	000007	IH-RMOIH-MSHD-C-*-CCTPA-000 007		R	Word - A4	Rédacteur+ GED	IE	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	True	M07	Word - A4	Numérique	False				False			
+$$	PV de recette simulateur	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000001	IH-RMOIH-MSHD-X-IEGCC-PV-000 001		R	PDF - A4		IE	0		M10			True	M13 - M15	PDF - A4		False				True	M10	PDF - A4		False				False			
+$$	PV de fin d'étude	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000002	IH-RMOIH-MSHD-X-IEGCC-PV-000 002		R	PDF - A4		IE	0		M10			True		PDF - A4		False				True	M10	PDF - A4		False				False			
+$$	FEP Etudes	Déploiement	2de16e7b-da9d-460b-bca0-9c60ad793584	DEPLOIEMENT / G- Clôture d’affaire / G3  Document de bilan d’opération, de REX (rapport de chantier)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		FEP	000001	IH-RMOIH-MSHD-X-IEGCC-FEP-000 001		R	PDF - A4		IE	0		M10			True		PDF - A4		False				True	M10	PDF - A4		False				False			
+$$	Notice de fonctionnement groupe	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	001	KAP		100003	IH-RMOIH-MSHD-*-001-KAP-100 003		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Notice de fonctionnement services généraux	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	050	KAG		100004	IH-RMOIH-MSHD-*-050-KAG-100 004		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Notice de fonctionnement conduite	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	000	KCD		100001	IH-RMOIH-MSHD-*-000-KCD-100 001		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Notice de fonctionnement exhaure	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	*	050	CXH		100001	IH-RMOIH-MSHD-*-050-CXH-100 001		T	Word - A4		IE	0		M05			True		Word - A4		False				True	M07	Word - A4		False				False			
+$$	Plan qualité de l'affaire	Déploiement	1f9b1f3e-dc26-46fb-8b4c-3dc34d55d45d	DEPLOIEMENT / B- Organisation et gestion de l’opération / B1  Plan de management - organisation de l’opération	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111003	IH-RMOIH-MSHD-X-000-*-111 003	NT	T	PDF - A4		Intégrateurs	0		M07		YC organigramme des équipes affectées à l'affaire, liste des intervenants et soutraitants et travaux soutraités	True		PDF - A4		False				False				False				False			
+$$	Planning de réalisation	Déploiement	c8796ff7-8ea4-4787-b34e-a578cd2bc164	DEPLOIEMENT / B- Organisation et gestion de l’opération / B3  Planning	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111001	IH-RMOIH-MSHD-X-000-*-111 001	PL	T	PDF - A4		Intégrateurs	0		M07			True	M14	PDF - A4	Numérique	False				False				False				False			
+$$	Planning de remise des documents	Déploiement	c8796ff7-8ea4-4787-b34e-a578cd2bc164	DEPLOIEMENT / B- Organisation et gestion de l’opération / B3  Planning	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111002	IH-RMOIH-MSHD-X-000-*-111 002	PL	T	Excel - A4		Intégrateurs	0		M07		Mise à jour au pas mensuel	True		Excel - A4		False				False				False				False			
+$$	Comptes-rendus de réunion d'études 	Déploiement	485b9442-0eef-4844-afc5-6d81bade158c	DEPLOIEMENT / C- Conception / C2  Comptes rendus de réunion	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		***	IH-RMOIH-MSHD-X-000-*-***	NT	T	PDF - A4		Intégrateurs	0		M07 à M10 - MàJ mensuelle 			True		PDF - A4		False				False				False				False			
+$$	Plans des locaux par niveaux avec implantation des matèriels existants	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		111001	IH-RMOIH-MSHD-D-000-*-111 001	IM	T	Autocad		Intégrateurs	0		M04 + 30 j		A créer si nécessaire	True		Autocad		False				False		Word - A4	Numérique	False				False			
+$$	Liste des consommateurs électriques existants du site et bilan de puissance	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		111002	IH-RMOIH-MSHD-D-000-*-111 002	LE	T	Excel - A4		Intégrateurs	0		M04 + 30 j			True		Excel - A4		False				False		Word - A4	Numérique	False				False			
+$$	Relevé des distances/longueurs et caractéristiques de câbles et carnet de câble de l'existant	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		111003	IH-RMOIH-MSHD-D-000-*-111 003	LE	T	Excel - A4		Intégrateurs	0		M04 + 30 j		A créer si nécessaire	True		Excel - A4		False				False		Autocad		False				False			
+$$	Liste des capteurs et actionneurs actuels (y compris TC et TT)	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		111004	IH-RMOIH-MSHD-D-000-*-111 004	LE	T	Excel - A4		Intégrateurs	0		M04 + 30 j			True		Excel - A4		False				False		Autocad	Papier	False				False			
+$$	Liste des E/S du diffuseur d’alarme existant	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	000	*		111005	IH-RMOIH-MSHD-D-000-*-111 005	ES	T	Excel - A4		Intégrateurs	0		M04 + 30 j			True		Excel - A4		False				False		Autocad		False				False			
+$$	Schéma unifilaire de distribution d'énergie avant rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LBT		111001	IH-RMOIH-MSHD-D-050-LBT-111 001	SF	T	Autocad		Intégrateurs	0		M04+30j			True		Autocad		False				False		Word - A4		False				False			
+$$	Schéma unifilaire d'ensemble existant	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	050	LEV		111001	IH-RMOIH-MSHD-D-050-LEV-111 001	SF	T	Autocad		Intégrateurs	0		M04+30j		Schéma HT jusqu'à distribution BT	True		Autocad		False				False		Autocad		False				False			
+$$	Schémas détaillés excitation groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		111001	IH-RMOIH-MSHD-X-001-LEX-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M22	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Schémas détaillés régulation de vitesse groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		111001	IH-RMOIH-MSHD-X-001-KRN-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M19	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Schéma unifilaire global de distribution d'énergie (AC-CC-AHQ) après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111001	IH-RMOIH-MSHD-X-050-*-111 001	SF	T	Autocad		Intégrateurs	0		M08A			True	M13 - M14	Autocad	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	Autocad	Numérique
+$$	Schémas détaillés de distribution AC usine après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LBT		111001	IH-RMOIH-MSHD-X-050-LBT-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M13	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés de distribution CC après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LCC		111001	IH-RMOIH-MSHD-X-050-LCC-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M13	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés de distribution ondulé usine après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LHQ		111001	IH-RMOIH-MSHD-X-050-LHQ-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M13	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schéma d'interverrTruellages fonctionnels du site (HTA/BT)	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111002	IH-RMOIH-MSHD-X-050-*-111 002	SF	T	See Elec		Intégrateurs	0		M08A			True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				False		See Elec	
+$$	Schéma unifilaire HTA/HTB après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LMT		111001	IH-RMOIH-MSHD-X-050-LMT-111 001	SF	T	Autocad		Intégrateurs	0		M08A			True	M13 - M14	Autocad	Papier	True	M14	PDF - A4	Numérique	False				False				False		See Elec	
+$$	Schémas détaillés HTA après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LMT		111002	IH-RMOIH-MSHD-X-050-LMT-111 002	SF	T	See Elec		Intégrateurs	0		M08A			True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				False		See Elec	
+$$	Carnet de câbles structuré par niveau de tension	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111003	IH-RMOIH-MSHD-X-050-*-111 003	LE	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Papier	True	M14	PDF - A4	Numérique	False				False				False		See Elec	
+$$	Schémas détaillés de distribution AC batiment d'exploitation  après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	LBT		111001	IH-RMOIH-MSHD-X-080-LBT-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M13	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés de distribution ondulé batiment d'exploitation après rénovation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	LHQ		111001	IH-RMOIH-MSHD-X-080-LHQ-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M13	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche services génaraux	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111001	IH-RMOIH-MSHD-X-050-KAG-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M14	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche Exhaures	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CXH		111001	IH-RMOIH-MSHD-X-050-CXH-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M15	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche Eau industrielle	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CEI		111001	IH-RMOIH-MSHD-X-050-CEI-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M16	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche Air comprimé	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	MAC		111001	IH-RMOIH-MSHD-X-050-MAC-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M17	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés automatisme groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111001	IH-RMOIH-MSHD-X-001-KAP-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M18	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés distribution BT groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LBT		111001	IH-RMOIH-MSHD-X-001-LBT-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M20	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés évacuation d'énergie groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111001	IH-RMOIH-MSHD-X-001-LEV-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M21	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche groupe 2	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	KAP		111001	IH-RMOIH-MSHD-X-002-KAP-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M23	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche groupe 2	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	KRN		111001	IH-RMOIH-MSHD-X-002-KRN-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M24	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche groupe 2	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	LBT		111001	IH-RMOIH-MSHD-X-002-LBT-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M25	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche groupe 2	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	LEV		111001	IH-RMOIH-MSHD-X-002-LEV-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M26	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche groupe 2	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	LEX		111001	IH-RMOIH-MSHD-X-002-LEX-111 001	SR	T	See Elec		Intégrateurs	0		M08A		Dossier master à jour à remettre à l'exploitant pour le M27	True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schémas détaillés tranche VdT	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050 /001	VTC		111001	IH-RMOIH-MSHD-X-050 /001-VTC-111 001	SR	T	See Elec		Intégrateurs	0		M08A			True	M13 - M14	See Elec	Papier	True	M14	PDF - A4	Numérique	False				False				True	M08A	See Elec	Numérique
+$$	Schéma des circuits et instrumentation groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	*		111001	IH-RMOIH-MSHD-X-001-*-111 001	SF	T	Autocad		Intégrateurs	0		M08A		A dupliquer par nombre de groupes	True	M13 - M14	Autocad	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Schémas de protection adapté au site groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111002	IH-RMOIH-MSHD-X-001-KAP-111 002	SF	T			Intégrateurs	0		M08A			True	M13 - M14		Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Schémas de protection groupe 2 adapté au site	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	002	KAP		111002	IH-RMOIH-MSHD-X-002-KAP-111 002	SF	T			Intégrateurs	0		M08A			True	M13 - M14		Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Schémas de protection des services géneraux adapté au site	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111002	IH-RMOIH-MSHD-X-050-KAG-111 002	SF	T			Intégrateurs	0		M08A			True	M13 - M14		Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Plan d’implantation des armoires et coffrets dans l'usine	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111005	IH-RMOIH-MSHD-X-050-*-111 005	IM	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	True	M14	PDF - A4		False				False				False			
+$$	Plan d’implantation des armoires et coffrets dans le batiment d'exploitation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	*		111001	IH-RMOIH-MSHD-X-080-*-111 001	IM	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	True	M14	PDF - A4		False				False				False			
+$$	Plan d’implantation des armoires et coffrets à la VdT	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	030	*		111001	IH-RMOIH-MSHD-X-030-*-111 001	IM	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	True	M14	PDF - A4		False				False				False			
+$$	Listes de capteurs et actionneurs goupes	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111004	IH-RMOIH-MSHD-X-001-KAP-111 004	LE	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Listes de capteurs et actionneurs services généraux	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111004	IH-RMOIH-MSHD-X-050-KAG-111 004	LE	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Plan des tremies et modifications GC usine (percements, déplacement de cloison, etc.)	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111006	IH-RMOIH-MSHD-X-050-*-111 006	GC	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	False				False				False				False			
+$$	Plan des tremies et modifications GC batiment d'exploitation (percements, déplacement de cloison, etc.)	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	*		111002	IH-RMOIH-MSHD-X-080-*-111 002	GC	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	False				False				False				False			
+$$	Plan des tremies et modifications GC VdT (percements, déplacement de cloison, etc.)	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	030	*		111002	IH-RMOIH-MSHD-X-030-*-111 002	GC	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad	Papier	False				False				False				False			
+$$	Plan de cheminement des fourreaux, câbles et chemins de câbles usine	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111008	IH-RMOIH-MSHD-X-050-*-111 008	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Plan de cheminement des fourreaux, câbles et chemins de câbles batiment d'exploitation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	*		111003	IH-RMOIH-MSHD-X-080-*-111 003	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Plan de cheminement des fourreaux, câbles et chemins de câbles VdT	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	030	*		111003	IH-RMOIH-MSHD-X-030-*-111 003	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Listes des entrées/sorties groupe	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111006	IH-RMOIH-MSHD-X-001-KAP-111 006	ES	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Papier	False				False				False				False			
+$$	Listes des entrées/sorties services généraux	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111006	IH-RMOIH-MSHD-X-050-KAG-111 006	ES	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Papier	False				False				False				False			
+$$	Plan de détail des chassis de supportage des équipements électrique usine	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111009	IH-RMOIH-MSHD-X-050-*-111 009	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		False				False				False				False			
+$$	Plan de détail des chassis de supportage des équipements électrique batiment d'exploitation	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	*		111004	IH-RMOIH-MSHD-X-080-*-111 004	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		False				False				False				False			
+$$	Plan de détail des chassis de supportage des équipements électrique vanne de tête	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	030	*		111004	IH-RMOIH-MSHD-X-030-*-111 004	PG	T	Autocad		Intégrateurs	0		M08A			True	M14	Autocad		False				False				False				False			
+$$	Dossier de spécification du système groupe  (DSS) 	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111005	IH-RMOIH-MSHD-X-001-KAP-111 005	NF	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4	Numérique	False				False				False				False			
+$$	Dossier de spécification du système services généraux (DSS) 	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111005	IH-RMOIH-MSHD-X-050-KAG-111 005	NF	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4	Numérique	False				False				False				False			
+$$	Manuel utilisateur IHM adapté au site	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	KCE		111003	IH-RMOIH-MSHD-X-000-KCE-111 003	NF	T	Word - A4		Intégrateurs	0		M10			True		Word - A4		False				False				False				False			
+$$	Fichier Excel des données du SA (pour configurateur COM&T)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111018	IH-RMOIH-MSHD-X-000-*-111 018	NT	T	Excel - A4		Intégrateurs	0		M08B			True		Excel - A4		False				False				False				False			
+$$	Dossier programme automate groupe	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111007	IH-RMOIH-MSHD-X-001-KAP-111 007	SL	T	PDF - A4		Intégrateurs	0		M13			True	M13	PDF - A4		False				False				False				False			
+$$	Dossier programme automate SAG	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111007	IH-RMOIH-MSHD-X-050-KAG-111 007	SL	T	PDF - A4		Intégrateurs	0		M13			True	M13	PDF - A4		False				False				False				False			
+$$	Dossier de configuration RPN Groupe 1	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111008	IH-RMOIH-MSHD-X-001-KAP-111 008	SL	T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Transformateur	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111002	IH-RMOIH-MSHD-X-001-LEV-111 002		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Enveloppe	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	*		111003	IH-RMOIH-MSHD-X-001-*-111 003		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Masse câbles	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111003	IH-RMOIH-MSHD-X-001-LEV-111 003		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Masse Barres	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111004	IH-RMOIH-MSHD-X-001-LEV-111 004		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Groupe (logiciel constructeur)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111009	IH-RMOIH-MSHD-X-001-KAP-111 009		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Transformateur (logiciel constructeur)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111005	IH-RMOIH-MSHD-X-001-LEV-111 005		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Enveloppe (logiciel constructeur)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	*		111004	IH-RMOIH-MSHD-X-001-*-111 004		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Masse câbles (logiciel constructeur)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111006	IH-RMOIH-MSHD-X-001-LEV-111 006		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Masse Barres (logiciel constructeur)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEV		111007	IH-RMOIH-MSHD-X-001-LEV-111 007		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramètrages des différents matériels numériques hors RPN groupe	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	*		111005	IH-RMOIH-MSHD-X-001-*-111 005	NT	T	Excel - A4		Intégrateurs	0		M13			True	M13 - M14	Excel - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramètrages des différents matériels numériques hors RPN SG	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111013	IH-RMOIH-MSHD-X-050-*-111 013	NT	T	Excel - A4		Intégrateurs	0		M13			True	M13 - M14	Excel - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Programme automate SAG	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111008	IH-RMOIH-MSHD-X-050-KAG-111 008	SL	T	Progiciel		Intégrateurs	0		M09-Xj			False				True	M14	Progiciel	Numérique	False				False				False			
+$$	Diagnostic électrique par un organisme habilité (en particulier du réseau de terre)	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH								NT	T	PDF - A4		Intégrateurs	0		M04 + 30 j		A réaliser si nécessaire	True		PDF - A4		False				False		Autocad	Papier	False				False			
+$$	Bilan de puissance source AC	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LBT		111002	IH-RMOIH-MSHD-X-050-LBT-111 002	NT	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Numérique	False				False				False				False		See Elec	
+$$	Bilan de puissance source CC 	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LCC		111002	IH-RMOIH-MSHD-X-050-LCC-111 002	NT	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Numérique	False				False				False				False		See Elec	
+$$	Bilan de puissance source ondulé	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LHQ		111002	IH-RMOIH-MSHD-X-050-LHQ-111 002	NT	T	Excel - A4		Intégrateurs	0		M08A			True	M14	Excel - A4	Numérique	False				False				False				False		See Elec	
+$$	Dossier de conception du GE	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LGE		111001	IH-RMOIH-MSHD-X-050-LGE-111 001	NT	T	PDF - A4		Intégrateurs	0		M08A			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Note de calcul des disjoncteurs et  câbles HTA, BT et TBT y compris sélectivité des protections	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111004	IH-RMOIH-MSHD-X-050-*-111 004	NT	T			Intégrateurs	0		M08A			True	M14		Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Mode opératoire de dépose de l'amiante	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111007	IH-RMOIH-MSHD-X-050-*-111 007	NT	T	Word - A4		Intégrateurs	0		M08A		A produire si besoin	True		Word - A4		False				False				False				False			
+$$	Spécifications particuliéres pour construction des TGBT	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	LBT		111002	IH-RMOIH-MSHD-X-000-LBT-111 002	NT	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4		False				False				False				False			
+$$	Dossier de migration des auxiliares alternatifs de l'usine	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LBT		111003	IH-RMOIH-MSHD-X-050-LBT-111 003	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des auxiliares alternatifs du batiment d'exploitation	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	LBT		111002	IH-RMOIH-MSHD-X-080-LBT-111 002	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des auxiliares continus de l'usine	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LCC		111003	IH-RMOIH-MSHD-X-050-LCC-111 003	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des auxiliares ondulés de l'usine	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LHQ		111003	IH-RMOIH-MSHD-X-050-LHQ-111 003	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des auxiliares ondulés du batiment d'exploitation	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	080	LHQ		111002	IH-RMOIH-MSHD-X-080-LHQ-111 002	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des services généraux exhaures	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CXH		111002	IH-RMOIH-MSHD-X-050-CXH-111 002	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des services généraux compresseurs d'air	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	MAC		111002	IH-RMOIH-MSHD-X-050-MAC-111 002	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Dossier de migration des services généraux eau industrielle	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CEI		111002	IH-RMOIH-MSHD-X-050-CEI-111 002	NT	T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Carnet de dépose des câbles et équipements	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111010	IH-RMOIH-MSHD-X-050-*-111 010	LE	T			Intégrateurs	0		M11			True	M14			False				False				False				False			
+$$	FDP de construction des armoires groupes	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111006	IH-RMOIH-MSHD-X-000-*-111 006		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction des armoires services généraux	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111007	IH-RMOIH-MSHD-X-000-*-111 007		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction de l'armoire VdT	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111008	IH-RMOIH-MSHD-X-000-*-111 008		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de constructions coffrets divers	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111009	IH-RMOIH-MSHD-X-000-*-111 009		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction TGBT alternatifs usine	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111010	IH-RMOIH-MSHD-X-000-*-111 010		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction TGBT alternatifs batiment d'exploitation	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111011	IH-RMOIH-MSHD-X-000-*-111 011		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction TGBT continu usine	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111012	IH-RMOIH-MSHD-X-000-*-111 012		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction TGBT ondulé usine	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111013	IH-RMOIH-MSHD-X-000-*-111 013		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP de construction TGBT ondulé batiment d'exploitation	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111014	IH-RMOIH-MSHD-X-000-*-111 014		T			Intégrateurs	0		M08A			False				False				False				False				True	M08A		
+$$	FDP réserve	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111015	IH-RMOIH-MSHD-X-000-*-111 015		T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	FDP réserve	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111016	IH-RMOIH-MSHD-X-000-*-111 016		T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	FDP récapitulative de construction des armoires	Déploiement	8f3e8fe9-bd6a-4b7b-a128-05f7f463c26f	DEPLOIEMENT / D- Achats / D3  FDP	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111017	IH-RMOIH-MSHD-X-000-*-111 017		T			Intégrateurs	0		M08A			False				False				False				False				False			
+$$	Bordereau de reception des armoires groupes et SG sur site	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T			Intégrateurs	0		M10 + X j			False				False				False				False				False			
+$$	Bordereau de reception des matèriels RGU sur site	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T			Intégrateurs	0		M10 + X j			False				False				False				False				False			
+$$	Bordereau de reception des matèriels RGN sur site	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T			Intégrateurs	0		M10 + X j			False				False				False				False				False			
+$$	Déclaration de sous-traitance	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111004	IH-RMOIH-MSHD-X-000-*-111 004		T			Intégrateurs	0		M07 + M à jour			False				False				False				False				False			
+$$	Analyse de risques intégrateur	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111021	IH-RMOIH-MSHD-X-000-*-111 021	NT	T	Word - A4		Intégrateurs	0		M10			True		Word - A4		False				False				False				False			
+$$	Document unique	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111024	IH-RMOIH-MSHD-X-000-*-111 024	NT	T	PDF - A4		Intégrateurs	0		M10			True		PDF - A4		False				False				False				False			
+$$	Habilitation électique de tous les intervenants	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T	PDF - A4		Intégrateurs	0		M10			True		PDF - A4		False				False				False				False			
+$$	Plan d'installation des bugalows et raccordements	Déploiement	991fe934-283a-467f-bbf8-97bde2efcd09	DEPLOIEMENT / E-Réalisation  / E3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111005	IH-RMOIH-MSHD-X-000-*-111 005	IM	T	Autocad		Intégrateurs	0		M08A			True		Autocad		False				False				False				False			
+$$	Modes opératoires de manutention, pose et tirage des câbles, pose des armoires et coffrets	Déploiement	991fe934-283a-467f-bbf8-97bde2efcd09	DEPLOIEMENT / E-Réalisation  / E3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111022	IH-RMOIH-MSHD-X-000-*-111 022	NT	T	Word - A4		Intégrateurs	0		M10			True		Word - A4		False				False				False				False			
+$$	Liste des travaux hors indisponibilité	Déploiement	991fe934-283a-467f-bbf8-97bde2efcd09	DEPLOIEMENT / E-Réalisation  / E3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111023	IH-RMOIH-MSHD-X-000-*-111 023	LE	T	Excel - A4		Intégrateurs	0		M10			True		Excel - A4		False				False				False				False			
+$$	Dimensionnement des zones de stockage pour le besoin de l'entreprise	Déploiement	991fe934-283a-467f-bbf8-97bde2efcd09	DEPLOIEMENT / E-Réalisation  / E3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111026	IH-RMOIH-MSHD-X-000-*-111 026	IM	T	Word - A4		Intégrateurs	0		M10-30j			True		Word - A4		False				False				False				False			
+$$	Dossier bordereaux de suivi des déchets	Déploiement	8b17d274-5078-4d98-9e19-5ac1112abd4e	DEPLOIEMENT / E-Réalisation  / E4  Documents de réalisation - document Assurance Qualité ISO	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111025	IH-RMOIH-MSHD-X-000-*-111 025	NT	T	PDF - A4		Intégrateurs	0		M10 + M à jour			True	M14	PDF - A4		False				False				False				False			
+$$	Fiches réglages des capteurs SG	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111011	IH-RMOIH-MSHD-X-050-*-111 011	NE	T			Intégrateurs	0		M13			True	M13 - M14			True	M14	PDF - A4	Numérique	False				False				False			
+$$	Fiches réglages des capteurs groupe	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	*		111002	IH-RMOIH-MSHD-X-001-*-111 002	NE	T			Intégrateurs	0		M13			True	M13 - M14			True	M14	PDF - A4	Numérique	False				False				False			
+$$	PV de requalification intrinsèque chez le fournisseur (plateforme logiciels)	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111019	IH-RMOIH-MSHD-X-000-*-111 019	NE	T	PDF - A4		Intégrateurs	0		M08B			True		PDF - A4		False				False				False				False			
+$$	PV de requalification intrinsèque chez le fournisseur (Atelier)	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111020	IH-RMOIH-MSHD-X-000-*-111 020	NE	T	PDF - A4		Intégrateurs	0		M09			True	M13 - M14	PDF - A4		False				False				False				False			
+$$	Constat de la mise en service industrielle	Déploiement	8e9dae85-d122-472e-b7a8-0ee6f7d5220e	DEPLOIEMENT / G- Clôture d’affaire / G1  PV (réception, parfait achèvement, transfert à l’exploitant, transfert à la  maintenance)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T			Intégrateurs	0		M13+30j			False				False				False				False				False			
+$$	Notice de fonctionnement automatisme groupe 1	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KAP		111003	IH-RMOIH-MSHD-X-001-KAP-111 003	NF	T	Word - A4		Intégrateurs	0		M08A		yc description des points de réglages	True	M14	Word - A4		False				False				False				False			
+$$	Notices de fonctionnement des services généraux	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	KAG		111003	IH-RMOIH-MSHD-X-050-KAG-111 003	NF	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4		False				False				False				False			
+$$	Notices de fonctionnement des exhaures	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CXH		111003	IH-RMOIH-MSHD-X-050-CXH-111 003	NF	T	Word - A4		Intégrateurs	0		M08A		Si nécessaire	True	M14	Word - A4		False				False				False				False			
+$$	Notices de fonctionnement réfrigération	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	CEI		111003	IH-RMOIH-MSHD-X-050-CEI-111 003	NF	T	Word - A4		Intégrateurs	0		M08A			True	M15	Word - A4		False				False				False				False			
+$$	Guide d'exploitation et d'entretien GE	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LGE		111002	IH-RMOIH-MSHD-X-050-LGE-111 002	NT	T	PDF - A4		Intégrateurs	0		M10			True	M14	PDF - A4		False				False				False				False			
+$$	Notices de fonctionnement air comprimé	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	MAC		111003	IH-RMOIH-MSHD-X-050-MAC-111 003	NF	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4		False				False				False				False			
+$$	Support de formation des exploitants	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		111027	IH-RMOIH-MSHD-X-000-*-111 027	NF	T	PDF - A4		Intégrateurs	0		M13			True		PDF - A4		False				False				False				False			
+$$	Notices de fonctionnement du groupe électrogéne	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LGE		111003	IH-RMOIH-MSHD-X-050-LGE-111 003	NF	T	Word - A4		Intégrateurs	0		M08A			True	M14	Word - A4		False				False				False				False			
+$$	Guide d'exploitation et d'entretien onduleur	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LHQ		111004	IH-RMOIH-MSHD-X-050-LHQ-111 004	NT	T	PDF - A4		Intégrateurs	0		M10			True		PDF - A4		False				False				False				False			
+$$	Guide d'exploitation et d'entretien chargeur	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	LCC		111004	IH-RMOIH-MSHD-X-050-LCC-111 004	NT	T	PDF - A4		Intégrateurs	0		M10			True		PDF - A4		False				False				False				False			
+$$	Guide d'exploitation et d'entretien IEGIECC	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	050	*		111012	IH-RMOIH-MSHD-X-050-*-111 012	NT	T	PDF - A4		Intégrateurs	0		M10			True		PDF - A4		False				False				False				False			
+$$	Certificat d'étalonnage des capteurs (constructeur)	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T	PDF - A4		Intégrateurs	0		M13			True	M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Excitation	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113004	IH-RMOIH-MSHD-X-001-LEX-113 004		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Dossier de configuration RPN Masse rotor	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113005	IH-RMOIH-MSHD-X-001-LEX-113 005		T	PDF - A4		Intégrateurs	0		M13			True	M13 - M14	PDF - A4		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Excitation (logiciel constructeur)	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113006	IH-RMOIH-MSHD-X-001-LEX-113 006		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	Paramétrage RPN Masse rotor (logiciel constructeur)	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113007	IH-RMOIH-MSHD-X-001-LEX-113 007		T	Progiciel		Intégrateurs	0		M13			True	M13 - M14	Progiciel		True	M14	PDF - A4	Numérique	False				False				False			
+$$	EP	Déploiement	dd328b8d-def2-4343-b8d5-8723dfb7f111	DEPLOIEMENT / A -Relations avec la MOA / A2 Assistance à la MOA (pré-études, études de faisabilité, expertises, …)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	e.co	*			000001	IH-RMOIH-MSHD-P-*--000 001		R	PDF - A4		CIH	0		M02			True	M14	PDF - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	FEO RNV	Déploiement	1afc29bb-0186-4302-9702-db3130c454b7	DEPLOIEMENT / A -Relations avec la MOA / A3  Contractualisation (fiche engagement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			CIH	0		M03			False				False				False				False				False			
+$$	Commande d'exécution études	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			CIH	0		M07			False				False				True	M07			False				False			
+$$	DATS Infra	Déploiement			MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			CIH	0		M03			False				False				False				False				False			
+$$	Cahier d'essais Conduite 	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	KCD		100001	IH-RMOIH-MSHD-X-000-KCD-100 001	NE	T	Excel - A4		PO Conduite	0		M08A		PGE à mettre en T	True		Excel - A4		False				False				False				False			
+$$	Logiciel RGN (avec sa version)	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	RGN			000001	IH-RMOIH-MSHD-D-RGN--000 001		R	PDF - A4		PO RGN	0		M05			True	M14	PDF - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	CPS RGN	Déploiement	7b23d3f0-301b-48d0-9eea-5d0e35bd9d71	DEPLOIEMENT / D- Achats / D2  CPS	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	RGN			000001	IH-RMOIH-MSHD-C-RGN--000 001		R	Word - A4		PO RGN	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Word - A4	Numérique	False				False			
+$$	Point Zéro DTG	Déploiement	dd328b8d-def2-4343-b8d5-8723dfb7f111	DEPLOIEMENT / A -Relations avec la MOA / A2 Assistance à la MOA (pré-études, études de faisabilité, expertises, …)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			Représentants DTG	0		M03			False				False				False				False				False			
+$$	Logiciel RGU (avec sa version) de l'équipement 3	Déploiement	9dfe0739-4168-4c8a-ad14-3278936de18f	DEPLOIEMENT / C- Conception / C8      DSS - logiciel	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	D	RGU			000001	IH-RMOIH-MSHD-D-RGU--000 001		R	Excel - A4		PO RGU	0		M05			True	M14	Excel - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Stratégie de tests IQR	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IQR			000001	IH-RMOIH-MSHD-X-IQR--000 001		R	Word - A4		PO RGU	0		M05+X J			True		Word - A4		False				False				False				False			
+$$	CPS RGU 	Déploiement	7b23d3f0-301b-48d0-9eea-5d0e35bd9d71	DEPLOIEMENT / D- Achats / D2  CPS	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	C	RGU			000001	IH-RMOIH-MSHD-C-RGU--000 001		R	Word - A4		PO RGU	0		M06			True	M14	Word - A4	Numérique	True	M14	PDF - A4	Numérique	False		Word - A4	Numérique	False				False			
+$$	PV de recette IQR	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	IEGCC		PV	000000	IH-RMOIH-MSHD-X-IEGCC-PV-000 000		R	PDF - A4		PO RGU	0		M09			True	M13 - M14	PDF - A4		False				True	M09	PDF - A4		False				False			
+$$	CEB produire local (DOSTEX site, liste des MISH, liste des AD, codification ECSH)	Déploiement	81b5c234-2d4f-4f88-993d-37fac6673070	DEPLOIEMENT / A -Relations avec la MOA / A1 Expression des besoins	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			MOA	0		M03			True	M14		Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	DTA : Dossier Technique Amiante	Déploiement	dd328b8d-def2-4343-b8d5-8723dfb7f111	DEPLOIEMENT / A -Relations avec la MOA / A2 Assistance à la MOA (pré-études, études de faisabilité, expertises, …)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R	PDF - A4		MOA	0		M03			True		PDF - A4		False				False				False				False			
+$$	Analyse de risque ARA et exigences SSE/SH 	Déploiement	b5b4fa7d-c216-411d-814c-37e3e62f3d9f	DEPLOIEMENT / E-Réalisation  / E1  management des risques (santé, sécurité, sûreté, environnement)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									R			MOA	0		M03		Initialisée par CHO à partir de l'ARA type	False				False				False				False				False			
+$$	"Schémas de détail du RGN, bornier, plan des armoires,
+Spécification des câbles entre RGN et équipement"	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112001	IH-RMOIH-MSHD-X-001-KRN-112 001	SR	T			Prestataires RGN	0		M06			True	M14		Papier	True	M14	PDF - A4	Numérique	True	M07		Papier	False				False		See Elec	
+$$	Schéma oléohydraulique régulation de vitesse groupe 1	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112002	IH-RMOIH-MSHD-X-001-KRN-112 002	SH	T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Documentation générique du régulateur de vitesse	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112004	IH-RMOIH-MSHD-X-001-KRN-112 004	NF	T	PDF - A4		Prestataires RGN	0		M06			True	M14	PDF - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Rapport d'essais	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112008	IH-RMOIH-MSHD-X-001-KRN-112 008	NE	T	Word - A4		Prestataires RGN	0		M13			True	M14	Word - A4	Papier	False				False				False				False			
+$$	Notice de fonctionnement régulation de vitesse groupe 1	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112003	IH-RMOIH-MSHD-X-001-KRN-112 003	NF	T	Word - A4		Prestataires RGN	0		M14			True	M14	Word - A4	Papier	False				False				False				False			
+$$	Notice du logiciel d'exploitation et de maintenance RGN groupe 1	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112005	IH-RMOIH-MSHD-X-001-KRN-112 005	NF	T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Support de formation des exploitants RGN	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112009	IH-RMOIH-MSHD-X-001-KRN-112 009	NF	T	PDF - A4		Prestataires RGN	0		M13			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Liste des pièces de rechange RGN groupe 1	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112006	IH-RMOIH-MSHD-X-001-KRN-112 006	LE	T	Excel - A4		Prestataires RGN	0		M12A			True	M14	Excel - A4	Papier	True	M14	PDF - A4	Numérique	False				False				False			
+$$	Programme régulateur de vitesse groupe 1	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	KRN		112007	IH-RMOIH-MSHD-X-001-KRN-112 007	SL	T			Prestataires RGN	0		M14			True	M14		Numérique	False				False				False				False			
+$$	"Schémas de détail du RGU, bornier, plan des armoires et transformateur.
+Spécification des câbles entre RGU et équipement"	Déploiement	ca6119de-5c2b-465c-988f-599b9ef3d29a	DEPLOIEMENT / C- Conception / C3  Plans, schémas, listings	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113001	IH-RMOIH-MSHD-X-001-LEX-113 001	SR	T			Prestataires RGN	0		M06			True	M14		Papier	True	M14	PDF - A4	Numérique	True	M07		Papier	False				False			
+$$	Notes de calcul de dimensionnement	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113012	IH-RMOIH-MSHD-X-001-LEX-113 012		T			Prestataires RGN	0		M14			True	M14		Numérique	False				False				False				False			
+$$	Notes de calcul de dimensionnement	Déploiement	73b0f30a-335c-412f-af42-0410fe01cdb2	DEPLOIEMENT / C-Conception / C1  Etudes, notes de calcul	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113013	IH-RMOIH-MSHD-X-001-LEX-113 013		T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Numérique	True	M14	PDF - A4	Numérique	False				False				False			
+$$	PV de réception des transformateurs de soutirage	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113009	IH-RMOIH-MSHD-X-001-LEX-113 009		T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	PV de réception du contacteur d'excitation	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113010	IH-RMOIH-MSHD-X-001-LEX-113 010		T	PDF - A4		Prestataires RGN	0		M12A			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Support de formation des exploitants RGU	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113002	IH-RMOIH-MSHD-X-001-LEX-113 002		T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Notice de fonctionnement excitation groupe 1	Déploiement	d346d1fd-5888-488c-a410-430317427c19	DEPLOIEMENT / G- Clôture d’affaire / G4  Notices de fonctionnement et de maintenance (DUIO)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113003	IH-RMOIH-MSHD-X-001-LEX-113 003	NF	T	Word - A4		Prestataires RGN	0		M14			True	M14	Word - A4	Papier	False				False				False				False			
+$$	Documentation techniques des protections (CPI, diodes tournantes, température transfo d’excitation,…)	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113008	IH-RMOIH-MSHD-X-001-LEX-113 008		T	PDF - A4		Prestataires RGN	0		M14			True	M14	PDF - A4	Papier	False				False				False				False			
+$$	Liste des pièces de rechange excitation	Déploiement	9da444c3-01c8-488d-bec3-9422ed0dee05	DEPLOIEMENT / G- Clôture d’affaire / G5  Plans, schémas et listings CAE (Conformes à Exécution)	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	001	LEX		113011	IH-RMOIH-MSHD-X-001-LEX-113 011		T	Excel - A4		Prestataires RGN	0		M12A			True	M14	Excel - A4	Papier	False				False				False				False			
+$$	Bon de livraison	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH									T			Tableautiers	0		M10+Xj			False				False				True	M10 + Mà j hebdo			False				False			
+$$	Fiche de modification des armoires et coffrets sur écart d'études	Déploiement	cdd2ac47-c2aa-4fdf-a1fc-44ca9524ce64	DEPLOIEMENT / D- Achats / D4  Commande, conventions, marchés, bordereaux, …	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		116003	IH-RMOIH-MSHD-X-000-*-116 003	NT	T			Tableautiers	0		M09			False				False				True	M09			False				False			
+$$	Photos pour point d'arrêt numéro 1	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True		RMOIH										PDF - A4		Tableautiers	0		M09		Pour validation de l'implantation dans les armoires par l'intégrateur	True		PDF - A4		False				True	M09	PDF - A4		False				False			
+$$	Cahier de recette des armoires de puissance en atelier	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		116001	IH-RMOIH-MSHD-X-000-*-116 001	NE	T			Tableautiers	0		M08A+ X j			False				False				True	M09			False				False			
+$$	Cahier de recette des armoires contrôle commande	Déploiement	faec346f-18c5-46ba-a795-b349f397e7c7	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F2  Requalification	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		116002	IH-RMOIH-MSHD-X-000-*-116 002	NE	T			Tableautiers	0		M08A+ X j			False				False				True	M09			False				False			
+$$	PV de test des armoires	Déploiement	3f7ef12b-37c7-440f-a23c-1cb92b2340f6	DEPLOIEMENT / F- Contrôles de réalisation - suivi de l’activité / F3  PV	MSH	MSH - Roche au moine	Roche-au-Moine [R.MOIH]	True	IH	RMOIH	MSHD	X	000	*		116004	IH-RMOIH-MSHD-X-000-*-116 004	NE	T	PDF - A4		Tableautiers	0		M09			True	M13 - M14	PDF - A4		False				True	M09	PDF - A4		False				False			
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+															²																																
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															
+																																															

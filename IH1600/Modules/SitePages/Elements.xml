@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages">
+    <File Path="SitePages\observations.aspx" Url="SitePages/observations.aspx" >
+           
+      <!--Comment this otherwise we end up with duplication webpart in the page
+      uncomment for initial deployment... not very convenient...-->
+      
+      <AllUsersWebPart WebPartZoneID="FullPage" WebPartOrder="0">
+        <![CDATA[
+          <WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+	          <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+	          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+	          <Title>Observations</Title>
+	          <FrameType>None</FrameType>
+	          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">~sitecollection/rnvo_assets/dispallobservations.html</ContentLink>            
+	          <Description>Allows authors to enter rich text content.</Description>
+	          <IsIncluded>true</IsIncluded>
+	          <PartOrder>1</PartOrder>
+	          <FrameState>Normal</FrameState>
+	          <Height />
+	          <Width />
+            <ZoneID>Body</ZoneID>
+	          <AllowRemove>true</AllowRemove>
+	          <AllowZoneChange>true</AllowZoneChange>
+	          <AllowMinimize>true</AllowMinimize>
+	          <AllowConnect>true</AllowConnect>
+	          <AllowEdit>true</AllowEdit>
+	          <AllowHide>true</AllowHide>
+	          <IsVisible>true</IsVisible>
+	          <DetailLink />
+	          <HelpLink />
+	          <HelpMode>Modeless</HelpMode>
+	          <Dir>Default</Dir>
+	          <PartImageSmall />
+	          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+	          <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+	          <IsIncludedFilter />
+	          <ExportControlledProperties>true</ExportControlledProperties>
+	          <ID>g_606d79f4_9b27_4015_9e68_7643749d7624</ID>
+	          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+	          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          </WebPart>
+        ]]>
+      </AllUsersWebPart>
+
+    </File>
+  </Module>
+</Elements>

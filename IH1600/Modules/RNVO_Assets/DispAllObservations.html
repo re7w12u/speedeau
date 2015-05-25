@@ -1,0 +1,161 @@
+﻿
+<script type="text/javascript">
+
+    var siteUrl = _spPageContextInfo.siteServerRelativeUrl;
+    var webUrl = _spPageContextInfo.webServerRelativeUrl;
+
+
+    var ObsModel = function (items) {
+        this.items = ko.observableArray(items);
+
+        this.gridViewModel = new ko.simpleGrid.viewModel({
+            data: this.items,
+            columns: [
+                { headerText: "Titre", rowText: "" }
+            ]
+        });
+    }
+
+    function init() {
+
+        var id = $.getQueryParameters().DID;
+
+        // get data
+        var restUrl = _spPageContextInfo.webAbsoluteUrl + "/_api/lists/getbytitle('Observations Déploiement')/items?" +
+            "$select=ID,Title,observation,EDFVersion,EDFRevision,document/ID,Modified,Author/Title,Attachments&" +
+            "$expand=Author/ID&" +
+            "$Expand=document&$Filter=document/ID eq " + id;
+
+        $.ajax({ "url": restUrl, "headers": { "Accept": "application/json; odata=verbose" } })
+            .done(function (result) {
+
+                var wrapper = $("#wrapper");
+
+                if (result.d.results.length == 0) {
+                    wrapper.append($("<tr><td>Aucun commentaire pour ce document</td></tr>"));
+                }
+
+                var ensureValue = function (str) {
+                    if (str == null || str == undefined) return '';
+                    else return str;
+                };
+                var reversesorting = function (a, b) {
+
+                    if (a.EDFVersion == b.EDFVersion) // same indice
+                    {
+                        if (a.EDFRevision == null && b.EDFRevision == null) return 0;
+                        else if (a.EDFRevision == null) return -1;
+                        else if (b.EDFRevision == null) return 1;
+                        return b.EDFRevision - a.EDFRevision;
+                    }
+                    else {
+
+                        if (a.EDFVersion == b.EDFVersion) return 0;
+                        else if (a.EDFVersion > b.EDFVersion) return -1;
+                        else return 1;
+                    }
+                };
+                var data = result.d.results.sort(reversesorting);
+
+
+                $.each(data, function (i) {
+                    var clss = i % 2 == 0 ? '' : "spdeau-row-colored"
+                    var rows = $("<tr class='spdeau-bold " + clss + "'><td colspan='3'>" + this.Title + "</td></tr>" +
+                                "<tr class=\"" + clss + "\"><td>" + this.Author.Title + "</td><td>" + new Date(this.Modified).toLocaleDateString() + "</td><td>Version: " + ensureValue(this.EDFVersion) + " " + ensureValue(this.EDFRevision) + "</td></tr>" +
+                                "<tr class=\"" + clss + "\"><td colspan='3' >" + this.observation + "</td></tr>");
+                    wrapper.append(rows);
+
+                    if (this.Attachments) {
+                        var id = "obs_" + this.ID;
+                        var attachmentRow = $('<tr class="' + clss + '"><td>pièces jointes</td><td id="' + id + '" colspan="2"></td></tr>');
+                        wrapper.append(attachmentRow);
+                        fetchAttachements(this.ID);
+                    }
+                });
+            });
+
+        $("#ih1600-loading").remove();
+    }
+
+    function fetchAttachements(itemID) {
+        // get data
+        var restUrl = _spPageContextInfo.webAbsoluteUrl + "/_api/lists/getbytitle('Observations Déploiement')/items(" + itemID + ")/AttachmentFiles";
+        $.ajax({
+            url: restUrl,
+            headers: { "Accept": "application/json; odata=verbose", "content-type": "application/json;odata=verbose" }            
+        })
+           .done(function (result) {
+               $container = $("#obs_" + itemID);
+               data = result.d.results;
+               $.each(data, function (i) {
+                   $container.append($('<a target="_blank" href="' + this.ServerRelativeUrl + '"> ' + this.FileName + '</a>'));
+                   if(i < data.length-1) $container.append(" - ");
+               });
+           });
+    }
+
+    var index = 0;
+    function loadCustomScripts() {
+        var scripts = ["rnvo.common.js", "rnvo.ih1600.model.js", "rnvo.params.js", "rnvo.ih1600.validation.js", "rnvo.ih1600.ui.js", "rnvo.notify.js"];
+        var scriptbase = siteUrl + '/RNVO_Assets/js/';
+        //console.log("loading : " + scriptbase + scripts[index]);
+
+        if (index < scripts.length - 1) {
+            // loads all script one by one except the last one
+            $.getScript(scriptbase + scripts[index], loadCustomScripts);
+            index++;
+        }
+        else {
+            // last script loading trigger execution
+            $.getScript(scriptbase + scripts[index], init);
+        }
+    }
+
+    //SP.SOD.executeOrDelayUntilScriptLoaded(loadCustomScripts, 'SP.js');
+    SP.SOD.executeFunc('sp.js', 'SP.ClientContext', loadCustomScripts);
+</script>
+
+<style type="text/css">
+    .spdeau-row-colored{
+        background-color:rgba( 156,206,240,0.3 );
+    }
+
+    .spdeau-bold{
+        font-weight:bold;
+    }
+
+    #wrapper{
+        width:770px;
+    }
+
+    #wrapper tr td {
+        padding:5px;
+    }
+
+    .ms-webpartzone-cell {
+        display: block;
+    }
+
+    #ih1600-loading {
+        text-align: center;
+        text-align: center;
+        width: 600px;
+    }
+
+    /*hide ribbon*/
+    .ms-dialog #s4-ribbonrow {
+        display: none;
+    }
+</style>
+
+<div class="ms-dlgLoadingTextDiv ms-alignCenter" id="ih1600-loading">
+    <span style="padding-top: 6px; padding-right: 10px;">
+        <img src="/_layouts/15/images/gears_anv4.gif?rev=23" title="This animation indicates the operation is in progress. Click to remove this animated image.">
+    </span>
+    <span class="ms-core-pageTitle ms-accentText">Veuillez Patienter</span>
+</div>
+
+<div id="obs-wrapper">
+    <table id="wrapper"></table>
+
+</div>

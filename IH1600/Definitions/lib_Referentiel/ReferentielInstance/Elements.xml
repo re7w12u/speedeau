@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Référentiel" OnQuickLaunch="TRUE" TemplateType="101" Url="Lists/ref" 
+                Description="contient tous les documents de référence"></ListInstance>
+</Elements>

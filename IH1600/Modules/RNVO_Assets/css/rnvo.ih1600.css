@@ -1,0 +1,14 @@
+﻿.ms-webpartzone-cell{
+    display:none;
+}
+
+#ih1600-loading{
+    text-align:center;
+    text-align: center;
+    width: 600px;
+}
+
+/*hide ribbon*/
+.ms-dialog #s4-ribbonrow { 
+    display: none;
+}

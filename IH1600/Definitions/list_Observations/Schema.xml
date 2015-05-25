@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="list_Observations" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/list_Observations" BaseType="0" 
+      xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE" NavigateForFormsPages="FALSE">
+  <MetaData>
+    <ContentTypes>
+
+      <ContentType ID="0x0100D781A5E7B4864164AD41FD260BF491F0" Name="Observations" Group="EDF" Description="définit les colonnes nécessaires pour effectuer les observations sur un document" Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{08fb84c3-83ac-43fa-8a1c-63f458b3a96c}" DisplayName="Observation" Required="FALSE" Name="observation" NumLines="6" Sortable="FALSE" />
+          <FieldRef ID="{f3a671da-ad2f-45e6-ba08-90a450f5af57}" DisplayName="document" Required="FALSE" Name="document"  />
+          <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Name="EDFVersion"  />
+          <FieldRef ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}" DisplayName="Révision" Required="FALSE" Name="EDFRevision"  />
+          <FieldRef ID="{FE3A30C6-667A-47D2-8485-32CB1831DA16}" DisplayName="Validée" Required="FALSE" Name="OBS_Validated" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInNewForm="FALSE" Hidden="TRUE" />
+          <FieldRef ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}" DisplayName="Status Documentaire" Format="RadioButtons" Name="Status" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    
+    
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" StaticName="Title" MaxLength="255" />
+      <Field Type="Lookup" DisplayName="document" Required="FALSE" EnforceUniqueValues="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" RelationshipDeleteBehavior="None" ID="{f3a671da-ad2f-45e6-ba08-90a450f5af57}" StaticName="document" Name="document" ColName="int1" RowOrdinal="0" Version="1" Group="EDF" />
+      <Field Type="Note" DisplayName="Observation" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE" Sortable="FALSE" ID="{08fb84c3-83ac-43fa-8a1c-63f458b3a96c}" StaticName="observation" Name="observation" ColName="ntext2" RowOrdinal="0" Group="EDF" />
+      <Field Type="Text" DisplayName="Révision" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}" StaticName="EDFRevision" Name="EDFRevision" ColName="nvarchar13" RowOrdinal="0" Group="EDF" />
+      <Field Type="Text" DisplayName="Indice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" StaticName="EDFVersion" Name="EDFVersion" ColName="nvarchar12" RowOrdinal="0" Group="EDF" />
+      <Field Type="Boolean" DisplayName="Validée" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{FE3A30C6-667A-47D2-8485-32CB1831DA16}" StaticName="OBS_Validated" Name="OBS_Validated" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInNewForm="FALSE" Hidden="TRUE">
+        <Default>0</Default>
+      </Field>
+      <Field Type="Choice" DisplayName="Status Documentaire" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="RadioButtons" FillInChoice="FALSE"
+         ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}"  StaticName="Status" Name="Status" Group="EDF" Description="Statut du document selon la politique de gestion documentaire IH1600" >
+        <Default>AUCUN</Default>
+        <CHOICES>
+          <CHOICE>AUCUN</CHOICE>
+          <CHOICE>PREL</CHOICE>
+          <CHOICE>BPE</CHOICE>
+        </CHOICES>
+      </Field>
+
+    </Fields>
+    <Views>
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="observation"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="observation" />
+          <FieldRef Name="document" />
+          <FieldRef Name="EDFVersion" />
+          <FieldRef Name="EDFRevision" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2" Name="c326a1b1-0824-492e-8567-a96b0a969a0c" DisplayName="FilteredView" Type="HTML" WebPartZoneID="Main" SetupPath="pages\viewpage.aspx" Url="FilteredView.aspx">
+        <ViewFields>
+
+
+
+          <FieldRef Name="LinkTitleNoMenu" />
+          <FieldRef Name="Author" />
+          <FieldRef Name="Created" />
+        </ViewFields>
+        <Query />
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10101">
+      <Receiver>
+        <Name>Referentiel_EventReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>IH1600.Alertes.Referentiel_EventReceiver.Referentiel_EventReceiver</Class>
+        <SequenceNumber>12000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

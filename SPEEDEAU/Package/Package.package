@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="12e0221a-73cc-48b6-a164-bbb2c27a652a" solutionId="12e0221a-73cc-48b6-a164-bbb2c27a652a" resetWebServer="false" sharePointProductVersion="15.0" name="SPEEDEAU" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b20a3939-e176-4a78-9c8d-a6b74554e20b" />
+    <featureReference itemId="877d927f-aed1-46d5-a496-c73061065273" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="612caeb5-e179-4ac9-a5c9-5783d675a00c" />
+    <projectItemReference itemId="17da36e3-a97c-4f7c-ba01-fed8bce7efc7" />
+    <projectItemReference itemId="584fa5a8-8758-47b0-bf9c-ad394000f52e" />
+    <projectItemReference itemId="5c28d4be-0092-4068-9499-17a47755bd10" />
+    <projectItemReference itemId="c18f9936-5f55-40ca-813d-7fc605344656" />
+  </projectItems>
+</package>

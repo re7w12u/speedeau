@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- fields definition for IH1600 library -->
+
+  <Field Type="Boolean" DisplayName="Gestion IH1600" Name="GestionIH1600" StaticName="GestionIH1600" Required="FALSE" Indexed="FALSE" Group="EDF" ID="{7420DCE5-2231-41A5-AE8E-92ECBA476159}" />
+  
+  <Field Type="Text" DisplayName="Codification" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{256ed3a8-f6de-47a8-a208-0592a30ba0cb}"
+         StaticName="Codification" Name="Codification" Group="EDF" Description="Codification du document" />
+
+  <Field Type="Text" DisplayName="CodificationSystem" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{83A4C743-F80B-49FE-BA4E-0739751A184B}"
+         StaticName="CodificationSystem" Name="CodificationSystem" Group="EDF" Description="Codification du document" Hidden="TRUE" />
+  
+  <Field Type="Text" DisplayName="Révision" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}"
+         StaticName="EDFRevision" Name="EDFRevision" Group="EDF" Description="Révision d'indice (Nombre entier) selon le standard IH1600"/>
+  
+  <Field Type="Text" DisplayName="Indice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}"
+         StaticName="EDFVersion" Name="EDFVersion" Group="EDF" Description="Date à laquelle la version &quot;BPE&quot; du document a été publiée (Renseignée lors de la dépose d'un document BPE)"/>
+  
+  <Field Type="Boolean" DisplayName="Process IH1600" EnforceUniqueValues="FALSE" Indexed="FALSE" ID="{e9a2f647-3f84-4775-ae16-55b580ee679c}"  
+         StaticName="ProcessIH1600" Name="ProcessIH1600" Group="EDF" Description="Cocher si ce document est soumis au processus IH1600">
+    <Default>1</Default>
+  </Field>
+
+  <Field Type="Choice" DisplayName="Status Documentaire" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="RadioButtons" FillInChoice="FALSE" 
+         ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}"  StaticName="Status" Name="Status" Group="EDF" Description="Statut du document selon la politique de gestion documentaire IH1600" >
+    <Default>AUCUN</Default>
+    <CHOICES>
+      <CHOICE>AUCUN</CHOICE>
+      <CHOICE>PREL</CHOICE>
+      <CHOICE>BPE</CHOICE>
+    </CHOICES>
+  </Field>
+
+  <Field Type="Choice" DisplayName="Vérification" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" 
+         ID="{51b8069e-dc0c-4a19-a9ce-922a1951dfc3}"  StaticName="validation" Name="validation" Group="EDF" Description="Statut de la vérification du document selon la politique de suivi des vérifications IH1600" >
+    <Default>-</Default>
+    <CHOICES>
+      <CHOICE>None</CHOICE>
+      <CHOICE>VAO</CHOICE>
+      <CHOICE>VSO-SC</CHOICE>
+      <CHOICE>VSO-SV</CHOICE>
+      <CHOICE>VSO</CHOICE>
+    </CHOICES>
+  </Field>
+
+
+  <Field ID="{749DA0D1-4649-4C25-871B-05F0C07221FC}"   Type="TaxonomyFieldType" DisplayName="Site DPIH" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE"  WebId="~sitecollection" List="Lists/TaxonomyHiddenList"
+        Group="EDF" StaticName="EDF_Site" Name="EDF_Site" Description="Site géographique parmi l'ensemble de sites géographiques définis selon le découpage DPIH" >
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{352EB708-3FC0-4757-B11A-B345E2B11540}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field ID="{352EB708-3FC0-4757-B11A-B345E2B11540}" Type="Note" DisplayName="EDF_Site_0"  StaticName="EDF_Site_0" Name="EDF_Site_0" ShowInNewForm="FALSE" Required="FALSE"  Hidden="TRUE" CanToggleHidden="TRUE"></Field>
+
+  <Field ID="{7D2BB96F-D7B8-4EAB-AEF8-096480F99E60}" Type="TaxonomyFieldTypeMulti" DisplayName="Projet" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE" WebId="~sitecollection" List="Lists/TaxonomyHiddenList"
+        Group="EDF" StaticName="EDF_Projet" Name="EDF_Projet" Description="Projet auquel se réfère un contenu (document, etc.)" Mult="True" >
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{36B95E9C-931F-457F-8C9A-90051DBC44FA}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field ID="{36B95E9C-931F-457F-8C9A-90051DBC44FA}" Type="Note" DisplayName="EDF_Projet_0"  StaticName="EDF_Projet_0" Name="EDF_Projet_0" ShowInNewForm="FALSE" Required="FALSE"   Hidden="TRUE" CanToggleHidden="TRUE"></Field>
+
+  <Field ID="{3DBE4EEE-885D-43DF-819E-CD6C875B1995}" Type="TaxonomyFieldType" DisplayName="Famille documentaire" ShowField="Term1033" Required="FALSE" EnforceUniqueValues="FALSE" WebId="~sitecollection" List="Lists/TaxonomyHiddenList"
+        Group="EDF" StaticName="EDF_Typologie" Name="EDF_Typologie" Description="Famile de regroupement documentaire" >
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{A5034D85-8EE0-4E1B-BC2E-075D87DCCC13}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field ID="{A5034D85-8EE0-4E1B-BC2E-075D87DCCC13}" Type="Note" DisplayName="EDF_Typologie_0"  StaticName="EDF_Typologie_0" Name="EDF_Typologie_0" ShowInNewForm="FALSE" Required="FALSE"   Hidden="TRUE" CanToggleHidden="TRUE"></Field>
+
+  <Field Type="TaxonomyFieldType" DisplayName="Thème" List="Lists/TaxonomyHiddenList" WebId="~sitecollection" ShowField="Term1036" Description="Thème documentaire" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" 
+        ID="{aae4650b-9c07-434d-9a3b-06d2a43b2235}" StaticName="EDFTHEME" Name="EDFTHEME" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{8a3584d0-5b91-4fb3-a54e-176dab0c9fd9}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="EDFTHEME_0" StaticName="EDFTHEME_0" Name="EDFTHEME_0" ID="{8a3584d0-5b91-4fb3-a54e-176dab0c9fd9}" ShowInViewForms="FALSE" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="TaxonomyFieldType" DisplayName="Nature documentaire" List="Lists/TaxonomyHiddenList" WebId="~sitecollection" ShowField="Term1036" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF"
+         ID="{7b3734c6-5d83-47fc-8366-daad7792c79a}" StaticName="Nature_documentaire" Name="Nature_documentaire"
+         Description="Classement du document dans les natures documentaires définies par les usages RenouvEau P&amp;S" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="Nature_Documentaire_0" StaticName="Nature_Documentaire_0" Name="Nature_Documentaire_0" ID="{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}" ShowInViewForms="FALSE" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text" DisplayName="File Name" StaticName="FileName" Name="FileName" Hidden="True" Indexed="TRUE" Group="EDF" ID="{909EF1FA-6DC0-494B-AF16-F1398761A124}" />
+
+  <Field Type="LookupMulti" DisplayName="Taxonomy Catch All Column1" StaticName="TaxCatchAllLabel" Name="TaxCatchAllLabel" ID="{8f6b6dd8-9357-4019-8172-966fcd502ed2}" ShowInViewForms="FALSE" List="Lists/TaxonomyHiddenList" WebId="~sitecollection" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" ShowField="CatchAllDataLabel" FieldRef="{F3B0ADF9-C1A2-4b02-920D-943FBA4B3611}" ReadOnly="TRUE" Mult="TRUE" Sortable="FALSE"  Sealed="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="LookupMulti" DisplayName="Taxonomy Catch All Column" StaticName="TaxCatchAll" Name="TaxCatchAll" ID="{f3b0adf9-c1a2-4b02-920d-943fba4b3611}" ShowInViewForms="FALSE" List="Lists/TaxonomyHiddenList" WebId="~sitecollection" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" ShowField="CatchAllData" Mult="TRUE" Sortable="FALSE"  Sealed="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="TaxonomyFieldTypeMulti"   DisplayName="Ensemble cohérent" StaticName="EnsembleCoherent" Name="EnsembleCoherent" ID="{C845EA0F-BFA1-472E-BF2F-AEEA7C834C94}" Group="EDF"
+         List="Lists/TaxonomyHiddenList" WebId="~sitecollection" ShowField="Term1036" Required="FALSE" Mult="True">
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{2249F0A9-7394-4B28-81D3-5ADDB9A5D288}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="EnsembleCoherent_0" StaticName="EnsembleCoherent_0" Name="NEnsembleCoherent_0" ID="{2249F0A9-7394-4B28-81D3-5ADDB9A5D288}" ShowInViewForms="FALSE" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+  
+  <!-- fields definition for observations list -->
+
+  <Field Type="Lookup" DisplayName="document" Required="FALSE" EnforceUniqueValues="FALSE"  UnlimitedLengthInDocumentLibrary="FALSE" 
+         RelationshipDeleteBehavior="None" ID="{f3a671da-ad2f-45e6-ba08-90a450f5af57}" Overwrite="TRUE" StaticName="document" Name="document" ColName="int1" RowOrdinal="0"
+         Version="1" Group="EDF" />
+   
+  <Field Type="Note" DisplayName="Observation" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="TRUE" RichTextMode="FullHtml" 
+         IsolateStyles="TRUE" Sortable="FALSE" ID="{08fb84c3-83ac-43fa-8a1c-63f458b3a96c}"  StaticName="observation" Name="observation" 
+         Group="EDF" />
+
+  <Field Type="Boolean" DisplayName="Validée" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{FE3A30C6-667A-47D2-8485-32CB1831DA16}"  StaticName="OBS_Validated" 
+         Name="OBS_Validated" ShowInDisplayForm="FALSE" ShowInEditForm="FALSE" ShowInNewForm="FALSE" Hidden="TRUE"  >
+    <Default>0</Default>
+  </Field>
+  
+  <!-- fields definition for alerts list -->
+
+  <Field Type="Choice" DisplayName="Catégorie de Document" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="EDF" 
+         ID="{15412b38-bbb4-441c-873c-9e60525a12ea}" SourceID="{14d58187-6583-4aae-89e3-cb98a6867b82}" StaticName="Categorie_Document" Name="Categorie_Document">
+    <CHOICES>
+      <CHOICE>Deploiement</CHOICE>
+      <CHOICE>Referentiel</CHOICE>
+    </CHOICES>
+  </Field>
+
+  
+  <!-- fields definition for liste type -->
+
+  <Field Type="Text" DisplayName="Opération" Description="Nom de l'opération pour laquelle la liste de suivi est instanciée" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="40" Group="EDF" 
+         ID="{9ebe1c00-5cd6-4aea-9432-ee55a7210579}" StaticName="EDF_Operation" Name="EDF_Operation" Version="2" />
+  
+  <Field Type="TaxonomyFieldType" DisplayName="Rédaction" ShowField="Term1036" Description="Colonne permettant de définir l'entreprise, entité ou rôle en charge de la réalisation du document" WebId="~sitecollection" List="Lists/TaxonomyHiddenList"
+         Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" ID="{47be179e-0208-4b7b-bba4-e0fc3ce1a041}" StaticName="EDF_Redaction" Name="EDF_Redaction" >
+    <Default />
+    <Customization>
+      <ArrayOfProperty>        
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{046c3c79-8fbc-4714-aa12-440efaa4524f}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="Rédaction_0" StaticName="k7be179e02084b7bbba4e0fc3ce1a041" Name="k7be179e02084b7bbba4e0fc3ce1a041" ID="{046c3c79-8fbc-4714-aa12-440efaa4524f}" ShowInViewForms="FALSE" Required="FALSE" 
+         Hidden="TRUE" CanToggleHidden="TRUE" />
+  
+  <Field Type="Text" DisplayName="Fourniture" Description="Indication permettant de définir l'événement cible pour la fourniture du document" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="20" Group="EDF" 
+         ID="{c1138fac-b944-41c8-b544-0d9de452be36}" StaticName="EDF_Fourniture" Name="EDF_Fourniture" Version="1" />
+  
+  <Field Type="DateTime" DisplayName="Date cible" Description="Date cible pour la fourniture d'un livrable" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" Group="EDF" FriendlyDisplayFormat="Disabled" 
+         ID="{c8ae8b3e-f553-4347-8ca3-1b86f9f48e18}" StaticName="EDF_Date_cible" Name="EDF_Date_cible" Version="1" />
+  
+  <Field Type="TaxonomyFieldType" DisplayName="Unité"  ShowField="Term1036" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" WebId="~sitecollection" List="Lists/TaxonomyHiddenList"
+         ID="{0f275f76-edaf-48b3-8784-79af274e7789}" StaticName="EDF_Unite" Name="EDF_Unite" Description="Unité (max. 2 caractères) pour la définition de la codification documentaire selon IH1600. Par défaut = IH" >    
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{86c1cf9d-0221-4532-8577-48651a074b4d}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="Unité_0" StaticName="gf275f76edaf48b3878479af274e7789" Name="gf275f76edaf48b3878479af274e7789" ID="{86c1cf9d-0221-4532-8577-48651a074b4d}" ShowInViewForms="FALSE" Required="FALSE" 
+         Hidden="TRUE" CanToggleHidden="TRUE"  />
+
+  <Field Type="TaxonomyFieldType" DisplayName="Code Projet" ShowField="Term1036" Description="Code projet pour la définition de la codification documentaire selon IH1600" WebId="~sitecollection" 
+         List="Lists/TaxonomyHiddenList"           Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" ID="{514c6e38-0943-490c-9e49-ad9a1510a6fa}" StaticName="EDF_CodeProjet" Name="EDF_CodeProjet" >
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{23e64e96-d446-4172-ade8-59e9a3e87d73}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="EDF_CodeProjet_0" StaticName="nf5ad536135346a7be6a4e803c702365" Name="nf5ad536135346a7be6a4e803c702365" ID="{23e64e96-d446-4172-ade8-59e9a3e87d73}" ShowInViewForms="FALSE" Required="FALSE" 
+         Hidden="TRUE" CanToggleHidden="TRUE" />
+  
+  <Field Type="TaxonomyFieldType" DisplayName="Niveau d'études" WebId="~sitecollection" List="Lists/TaxonomyHiddenList" ShowField="Term1036" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" 
+         ID="{9bf65bba-409a-47d9-96da-0267516a39bc}" StaticName="EDF_Niveau_Etudes" Name="EDF_Niveau_Etudes" Description="Niveau d'études pour la définition de la codification documentaire selon IH1600" Version="4" ColName="int10" RowOrdinal="0">
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{90d2c95a-ca90-4eaf-804a-3750aea701b8}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="Niveau d'études_0" StaticName="pbf65bba409a47d996da0267516a39bc" Name="pbf65bba409a47d996da0267516a39bc" ID="{90d2c95a-ca90-4eaf-804a-3750aea701b8}" ShowInViewForms="FALSE" Required="FALSE" 
+         Hidden="TRUE" CanToggleHidden="TRUE" />
+  
+  <Field Name="EDF_Decoupage_Lot" FromBaseType="FALSE" Type="Text" DisplayName="Découpage - lot" Description="Code du découpage géographique selon IH1600: 000 pour les travaux communs ou de 001 à 099 pour les petits projets ou de 010 à 990 pour les grands projets, permettant d'identifier le groupe, les ouvrages, centrales, bâtiments, postes d'évacuation d'énergie, etc… concernés par les travaux.&#xD;&#xA;&#xD;&#xA;Pour les documents techniques (T): Découpage géographique (3 chiffres)&#xD;&#xA;Pour les documents résultats:  Lot concerné (Lettres ou *)"
+         Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="6" Group="EDF" ID="{fec85a1b-dad8-4cda-9aa3-e07175abde47}" StaticName="EDF_Decoupage_Lot" Version="5" />
+  
+  <Field Type="TaxonomyFieldType" DisplayName="Système élémentaire" WebId="~sitecollection" List="Lists/TaxonomyHiddenList" ShowField="Term1036" Description="Pour les documents techniques: Codification fonctionnelle du Système élémentaire concerné, sur trois caractères ou *: CEI (Eaux industrielles, potable, Incendie), CHY (Circuits hydrauliques, CXH (Circuit d'exhaures), DEC (Eclairage et force motrice), DVE (Ventilation et extraction), JDU (Système de sécurité incendie), JPT (Protection incendie transformateurs), KAG (Automatisme des services généraux), KAP (Automatisme principal des groupes), KCD (Automate de conduite), KCE (Calculateur de consignation d'états), KMN (Mesure de niveau), KRN (Régulation et mesure de vitesse), KSC (Salle de commande), LBT (Auxiliaires électriques alternatifs BT), LEV (Evacuation d'énergie), LCC (Auxiliaires à CC), LEX (Excitation et régulation de tension), LGE (Groupes électrogène), LHQ (Auxiliaires électriques ininiterruptibles), LMT (Auxiliaires électriques HTA), LTR (Circuit de terre), LTT (Télécommunications), MAC (Air comprimé), MTB (Turbine), VGD (Vanne de garde groupe, VTC (Vanne de tête de conduite), etc." 
+         Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" ID="{87442ed4-8015-4f07-a2a2-ea14db5deaca}" StaticName="EDF_Systeme_Elementaire" Name="EDF_Systeme_Elementaire">
+    <Default />
+    <Customization>
+      <ArrayOfProperty>
+        <Property>
+          <Name>TextField</Name>
+          <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{9aa3e394-75f2-46ed-8125-ef32a9c97344}</Value>
+        </Property>
+      </ArrayOfProperty>
+    </Customization>
+  </Field>
+  <Field Type="Note" DisplayName="Systèmes élémentaire_0" StaticName="o7442ed480154f07a2a2ea14db5deaca" Name="o7442ed480154f07a2a2ea14db5deaca" ID="{9aa3e394-75f2-46ed-8125-ef32a9c97344}" ShowInViewForms="FALSE" 
+         Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
+  
+  <Field Type="Text" DisplayName="Numéro Chrono" Description="Numéro chrono utilisé pour la construction du code IH1600" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="6" Group="EDF" 
+         ID="{dbeed181-1ba6-486a-96dc-98f4ec30448a}" StaticName="EDF_Numero_Chrono" Name="EDF_Numero_Chrono" Version="2" />
+  
+  <Field Type="Number" DisplayName="Temps estimé (h)" Description="Temps estimé nécessaire à la production du livrable, en heures" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Min="0" Max="999" Group="EDF" 
+         ID="{15d9ff01-9e69-4380-8262-c485c894c6f5}" StaticName="EDF_Temps_Estime" Name="EDF_Temps_Estime" Version="1" />
+  
+  <Field Type="Number" DisplayName="Reste à faire (h)" Description="Reste à faire pour la rédaction du document, en heures" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Min="0" Max="999" Group="EDF"
+         ID="{30d808bc-713d-437d-b9ef-11dbf9ed3377}" StaticName="EDF_Reste_A_Faire" Name="EDF_Reste_A_Faire" Version="1" />
+  
+  <Field Type="Note" DisplayName="Observation_rnvo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" Group="EDF" 
+         ID="{84a20d0b-a81b-42e7-a5b4-a6d037f8bde0}" StaticName="EDF_ListB5_Obs" Name="EDF_ListB5_Obs" RestrictedMode="TRUE" RichTextMode="Compatible" IsolateStyles="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" Version="2" />
+  
+  <Field Type="Boolean" DisplayName="Requis" Description="Indique si le document est requis ou non pour un déploiement donné." EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{14dacf5d-65f2-434a-8d9c-51a1f3984553}" StaticName="EDF_Requis"
+         Name="EDF_Requis" Required="FALSE" Version="2" ColName="bit1" RowOrdinal="0">
+    <Default>1</Default>
+  </Field>
+  
+  <Field Type="Text" DisplayName="Code centrale" Description="Code centrale (max. 6 caractères) pour la définition de la codification documentaire selon IH1600" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="6" Group="EDF" 
+         ID="{9b50bd69-8f44-4c48-b0b5-d91277e05396}" StaticName="EDF_Code_centrale" Name="EDF_Code_centrale" Version="2" />
+  
+  <Field Type="Text" DisplayName="Complément" Description="Pour les documents résultat: Complément facultatif" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="6" Group="EDF" ID="{f2c91e81-acb8-4fd9-8837-0aefeda281d1}" 
+          StaticName="EDF_Complement" Name="EDF_Complement" />
+  
+  <Field Type="Text" DisplayName="Format demandé" Description="Format demandé pour les documents livrables" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="20" Group="EDF" ID="{a101396c-d03e-4da1-963b-f959440670c4}"  
+         StaticName="EDF_Format_Demande" Name="EDF_Format_Demande"  />
+ 
+  <Field Type="User" DisplayName="Vérificateur" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="EDF" ID="{c143d446-cdab-42b4-a1bf-96f03a576f8e}"  
+         StaticName="EDF_Verificateur" Name="EDF_Verificateur" UserSelectionMode="PeopleOnly" List="UserInfo" />
+  
+  <Field Type="User" DisplayName="Approbateur" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="EDF" ID="{7b0a14cd-c512-4e4c-853a-03c6915f1eaf}"  
+         StaticName="EDF_Approbateur" Name="EDF_Approbateur" UserSelectionMode="PeopleOnly" List="UserInfo" />
+  
+  <Field Type="Boolean" DisplayName="Validation MOA" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{71e1946e-6839-4b81-af91-c4a7a67b909d}"  StaticName="EDF_Validation_MOA" Name="EDF_Validation_MOA" >
+    <Default>0</Default>
+  </Field>
+ 
+  <Field Type="Boolean" DisplayName="Livr. Exploitant" Description="Indique si le document doit être fourni à l'exploitant" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{df12080f-c6d2-423f-83bf-f600d7e470af}" 
+         StaticName="Exploitant_Livr" Name="Exploitant_Livr">
+    <Default>0</Default>
+  </Field>
+  <Field Type="Text" DisplayName="Exploitant Date" Description="" Group="EDF" ID ="{63DB6BEF-6478-4869-8B05-D5D512C0887E}" StaticName="Exploitant_Date" Name="Exploitant_Date" />
+  <Field Type="Text" DisplayName="Exploitant Format" Description="" Group="EDF" ID ="{A5B42930-EAEE-4167-BCFA-D296E27460D2}" StaticName="Exploitant_Format" Name="Exploitant_Format" />
+  <Field Type="Text" DisplayName="Exploitant Stockage" Description="" Group="EDF" ID ="{B416BA17-DA68-4F1D-934B-C12DB0DD54EC}" StaticName="Exploitant_Stockage" Name="Exploitant_Stockage" />
+  
+  <Field Type="Boolean" DisplayName="Livr. MCO" Description="Indique si le document doit être fourni à la MCO" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{e2290a3b-81f2-494d-b1ef-ecaab1dfb2a3}" 
+         StaticName="MCO_Livr" Name="MCO_Livr" >
+    <Default>0</Default>
+  </Field>
+  <Field Type="Text" DisplayName="MCO Date" Description="" Group="EDF" ID ="{5A196FF4-B498-4A34-B2D5-2E082CD145D8}" StaticName="MCO_Date" Name="MCO_Date" />
+  <Field Type="Text" DisplayName="MCO Format" Description="" Group="EDF" ID ="{B748B6CD-2F14-4C2E-BA23-64D68C7E8F8A}" StaticName="MCO_Format" Name="MCO_Format" />
+  <Field Type="Text" DisplayName="MCO Stockage" Description="" Group="EDF" ID ="{528B4CD1-B936-4E14-8CD9-1E8C4AF34D67}" StaticName="MCO_Stockage" Name="MCO_Stockage" />
+ 
+  <Field Type="Boolean" DisplayName="Livr. Intégrateur" Description="Indique si le document doit être fourni à l'intégrateur" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{d524a041-00a4-468b-a277-a9f46c818451}" 
+         StaticName="Integrateur_Livr" Name="Integrateur_Livr" >
+    <Default>0</Default>
+  </Field>
+  <Field Type="Text" DisplayName="Intégrateur Date" Description="" Group="EDF" ID ="{A6F86C33-96A9-4623-BF47-790ECB65F3B8}" StaticName="Integrateur_Date" Name="Integrateur_Date" />
+  <Field Type="Text" DisplayName="Intégrateur Format" Description="" Group="EDF" ID ="{5BA4FF27-7807-49DB-AA8C-FFB9B235BADE}" StaticName="Integrateur_Format" Name="Integrateur_Format" />
+  <Field Type="Text" DisplayName="Intégrateur Stockage" Description="" Group="EDF" ID ="{7F58DBB9-23D0-47DA-B683-70C7F60B767C}" StaticName="Integrateur_Stockage" Name="Integrateur_Stockage" />
+ 
+   <Field Type="Boolean" DisplayName="Livr. DTG" Description="Indique si le document doit être fourni à la DTG" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{353733c9-d549-4c5e-ba38-cf903c329737}" 
+          StaticName="DTG_Livr" Name="DTG_Livr" >
+    <Default>0</Default>
+  </Field>
+  <Field Type="Text" DisplayName="DTG Date" Description="" Group="EDF" ID ="{CFA05FA4-B272-43DB-BC17-2A543BE45D73}" StaticName="DTG_Date" Name="DTG_Date" />
+  <Field Type="Text" DisplayName="DTG Format" Description="" Group="EDF" ID ="{923EBB06-1895-4ECB-8FBD-63146A4676C3}" StaticName="DTG_Format" Name="DTG_Format" />
+  <Field Type="Text" DisplayName="DTG Stockage" Description="" Group="EDF" ID ="{5ECB34F4-7FFF-4DAD-85AE-DB7FC6363F2F}" StaticName="DTG_Stockage" Name="DTG_Stockage" />
+ 
+  <Field Type="Boolean" DisplayName="Livr. Tableautier" Description="Indique si le document doit être fourni au tableautier" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="EDF" ID="{fc5ac977-9704-4ac1-a2ab-6a4530c2b0e8}"  
+         StaticName="Tableautier_Livr" Name="Tableautier_Livr" >
+    <Default>1</Default>
+  </Field>
+  <Field Type="Text" DisplayName="Tableautier Date" Description="" Group="EDF" ID ="{FE931FB1-0246-42FF-A291-B23860B044E5}" StaticName="Tableautier_Date" Name="Tableautier_Date" />
+  <Field Type="Text" DisplayName="Tableautier Format" Description="" Group="EDF" ID ="{9C37B24B-5678-47A9-9A80-1A8F55F21B78}" StaticName="Tableautier_Format" Name="Tableautier_Format" />
+  <Field Type="Text" DisplayName="Tableautier Stockage" Description="" Group="EDF" ID ="{D9138100-73C5-4CCC-AF6B-2FADFDB8500A}" StaticName="Tableautier_Stockage" Name="Tableautier_Stockage" />
+ 
+  <Field Type="Choice" DisplayName="R/T" Description="Résultat ou Technique" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="EDF" ID="{1e4bcf1e-fae8-4327-848e-43281ae52265}" 
+         StaticName="EDF_RT" Name="EDF_RT" >
+    <CHOICES>
+      <CHOICE>R</CHOICE>
+      <CHOICE>T</CHOICE>
+    </CHOICES>
+  </Field>
+ 
+  <Field Type="Choice" DisplayName="Type MSH" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="EDF" ID="{1d7d420d-230c-4753-9e04-4c455fcc7219}"
+         StaticName="EDF_Type_MSH" Name="EDF_Type_MSH" >
+    <CHOICES>
+      <CHOICE>NT</CHOICE>
+      <CHOICE>LE</CHOICE>
+      <CHOICE>IM</CHOICE>
+      <CHOICE>ES</CHOICE>
+      <CHOICE>SF</CHOICE>
+      <CHOICE>NF</CHOICE>
+      <CHOICE>GC</CHOICE>
+      <CHOICE>NE</CHOICE>
+      <CHOICE>PG</CHOICE>
+      <CHOICE>SL</CHOICE>
+    </CHOICES>
+  </Field>
+
+  <Field Type="Text" DisplayName="Suivi" Name="SPDO_Suivi" Group="EDF" Required="false" JSLink="~sitecollection/RNVO_Assets/js/suivi_rendering.js" ID="{F475275A-A4A0-4A68-AC6E-DB39F5450029}"/>
+</Elements>

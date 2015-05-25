@@ -1,0 +1,21 @@
+﻿
+/* hides the form while loading data*/
+#rnvo-val-MenuContainer{
+    display:none;
+}
+
+#val-loading{
+    text-align:center;
+    text-align: center;
+    width: 600px;
+}
+
+.rnvo-val-selectmenu{
+    display: none;
+    margin-top: 20px;
+}
+
+/*hide ribbon*/
+.ms-dialog #s4-ribbonrow { 
+    display: none;
+}

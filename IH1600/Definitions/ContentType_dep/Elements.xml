@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x010100836ACCAE0B98461C8535E4CF511155E2" Name="Deploiement" Group="EDF"
+               Description="Type de contenu pour les documents de déploiement" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{7420DCE5-2231-41A5-AE8E-92ECBA476159}" DisplayName="Gestion IH1600" Name="GestionIH1600" Required="FALSE"  />
+      <FieldRef ID="{3DBE4EEE-885D-43DF-819E-CD6C875B1995}" DisplayName="Famille documentaire" Name="EDF_Typologie" />
+      <FieldRef ID="{A5034D85-8EE0-4E1B-BC2E-075D87DCCC13}" DisplayName="EDF_Typologie_0" Name="EDF_Typologie_0" />
+      <FieldRef ID="{7b3734c6-5d83-47fc-8366-daad7792c79a}" DisplayName="Nature documentaire" Name="Nature_documentaire" />
+      <FieldRef ID="{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}" DisplayName="Nature_Documentaire_0" Name="Nature_Documentaire_0" />
+      <FieldRef ID="{256ed3a8-f6de-47a8-a208-0592a30ba0cb}" DisplayName="Codification" Required="FALSE" Name="Codification" />
+      <FieldRef ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}" DisplayName="statut Documentaire" Required="FALSE" Name="Status" Format="RadioButtons" />
+      <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Name="EDFVersion" />
+      <FieldRef ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}" DisplayName="Révision" Required="FALSE" Name="EDFRevision" />
+      <FieldRef ID="{7D2BB96F-D7B8-4EAB-AEF8-096480F99E60}" DisplayName="Projet" Name="EDF_Projet" />
+      <FieldRef ID="{36B95E9C-931F-457F-8C9A-90051DBC44FA}" DisplayName="EDF_Projet_0" Name="EDF_Projet_0" />
+      <FieldRef ID="{aae4650b-9c07-434d-9a3b-06d2a43b2235}" DisplayName="Thème" Name="EDFTHEME" />
+      <FieldRef ID="{8a3584d0-5b91-4fb3-a54e-176dab0c9fd9}" DisplayName="EDFTHEME_0" Name="EDFTHEME_0" />
+      <FieldRef ID="{51b8069e-dc0c-4a19-a9ce-922a1951dfc3}" DisplayName="Vérification" Required="FALSE" Name="validation" Format="Dropdown" />
+      <FieldRef ID="{e9a2f647-3f84-4775-ae16-55b580ee679c}" DisplayName="Process IH1600" Name="ProcessIH1600" />
+      <FieldRef ID="{749DA0D1-4649-4C25-871B-05F0C07221FC}" DisplayName="Site DPIH" Name="EDF_Site" />
+      <FieldRef ID="{352EB708-3FC0-4757-B11A-B345E2B11540}" DisplayName="EDF_Site_0" Name="EDF_Site_0" />
+      <FieldRef ID="{909EF1FA-6DC0-494B-AF16-F1398761A124}" DisplayName="File Name" Hidden="true" Name="FileName" />
+      <FieldRef ID="{83A4C743-F80B-49FE-BA4E-0739751A184B}" DisplayName="CodificationSystem" Name="CodificationSystem" Hidden="TRUE" />
+    </FieldRefs>
+
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormUrl  xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <New>_layouts/speedeau/NewDeploiement.aspx</New>
+          <Edit>_layouts/speedeau/NewDeploiement.aspx</Edit>
+        </FormUrl>        
+      </XmlDocument>
+    </XmlDocuments>
+    
+  </ContentType>
+  
+  
+  
+  
+</Elements>

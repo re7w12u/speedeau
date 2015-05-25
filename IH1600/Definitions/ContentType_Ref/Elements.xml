@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x0101002563C36A4FC646B6B144C530443A81D8" Name="Referentiel" Group="EDF" Description="Type de contenu pour les documents de référence" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3DBE4EEE-885D-43DF-819E-CD6C875B1995}" DisplayName="Famille documentaire" Required="FALSE" Name="EDF_Typologie" />
+      <FieldRef ID="{A5034D85-8EE0-4E1B-BC2E-075D87DCCC13}" DisplayName="EDF_Typologie_0" Required="FALSE" Hidden="TRUE" Name="EDF_Typologie_0" ShowInNewForm="FALSE" />
+      <FieldRef ID="{7b3734c6-5d83-47fc-8366-daad7792c79a}" DisplayName="Nature documentaire" Name="Nature_documentaire" />
+      <FieldRef ID="{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}" DisplayName="Nature_Documentaire_0" Name="Nature_Documentaire_0" />
+      <FieldRef ID="{256ed3a8-f6de-47a8-a208-0592a30ba0cb}" DisplayName="Codification" Required="FALSE" Name="Codification" />
+      <FieldRef ID="{83A4C743-F80B-49FE-BA4E-0739751A184B}" DisplayName="CodificationSystem" Required="FALSE" Name="CodificationSystem" />
+      <FieldRef ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}" DisplayName="Status Documentaire" Required="FALSE" Description="Statut du document selon la politique de gestion documentaire IH1600" Name="Status" Format="RadioButtons" />
+      <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Name="EDFVersion" />
+      <FieldRef ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}" DisplayName="Révision" Required="FALSE" Description="Révision d'indice (Nombre entier) selon le standard IH1600" Name="EDFRevision" />
+      <FieldRef ID="{7D2BB96F-D7B8-4EAB-AEF8-096480F99E60}" DisplayName="Projet" Required="FALSE" Name="EDF_Projet" />
+      <FieldRef ID="{36B95E9C-931F-457F-8C9A-90051DBC44FA}" DisplayName="EDF_Projet_0" Required="FALSE" Hidden="TRUE" Name="EDF_Projet_0" ShowInNewForm="FALSE" />
+      <FieldRef ID="{aae4650b-9c07-434d-9a3b-06d2a43b2235}" DisplayName="Thème" Name="EDFTHEME" />
+      <FieldRef ID="{8a3584d0-5b91-4fb3-a54e-176dab0c9fd9}" DisplayName="EDFTHEME_0" Name="EDFTHEME_0" />
+      <FieldRef ID="{C845EA0F-BFA1-472E-BF2F-AEEA7C834C94}" DisplayName="Ensemble cohérent" Name="EnsembleCoherent"  />
+      <FieldRef ID="{2249F0A9-7394-4B28-81D3-5ADDB9A5D288}" DisplayName="EnsembleCoherent_0" Name="NEnsembleCoherent_0" />
+      <FieldRef ID="{e9a2f647-3f84-4775-ae16-55b580ee679c}" DisplayName="Process IH1600" Name="ProcessIH1600" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
+<!--<ContentType ID="0x0101002563C36A4FC646B6B144C530443A81D8" Name="Referentiel" Group="EDF" Description="Type de contenu pour les documents de référence" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{256ed3a8-f6de-47a8-a208-0592a30ba0cb}" DisplayName="Codification" Required="FALSE" Name="Codification" />
+      <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Name="Indice" />
+      
+      <FieldRef ID="{749DA0D1-4649-4C25-871B-05F0C07221FC}" DisplayName="Site DPIH" Required="FALSE" Name="EDF_Site" />
+      <FieldRef ID="{352EB708-3FC0-4757-B11A-B345E2B11540}" DisplayName="EDF_Site_0" Required="FALSE" Hidden="TRUE" Name="EDF_Site_0" ShowInNewForm="FALSE" />
+      
+      <FieldRef ID="{7D2BB96F-D7B8-4EAB-AEF8-096480F99E60}" DisplayName="Projet" Required="FALSE" Name="EDF_Projet" />
+      <FieldRef ID="{36B95E9C-931F-457F-8C9A-90051DBC44FA}" DisplayName="EDF_Projet_0" Required="FALSE" Hidden="TRUE" Name="EDF_Projet_0" ShowInNewForm="FALSE" />
+
+      <FieldRef ID="{aae4650b-9c07-434d-9a3b-06d2a43b2235}" DisplayName="Thème" Name="EDFTHEME" />        
+      <FieldRef ID="{8a3584d0-5b91-4fb3-a54e-176dab0c9fd9}" DisplayName="EDFTHEME_0" Name="EDFTHEME_0" />
+
+      <FieldRef   DisplayName="Nature documentaire" ID="{7b3734c6-5d83-47fc-8366-daad7792c79a}" Name="Nature_documentaire" />        
+      <FieldRef   DisplayName="Nature_Documentaire_0"   Name="Nature_Documentaire_0" ID="{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}"   Required="FALSE" Hidden="TRUE"         />
+
+      <FieldRef   DisplayName="Famille documentaire"   ID="{74949eb1-37b4-414d-9db7-1d50e3573049}"   Name="Famille_documentaire" />        
+      <FieldRef   DisplayName="Famille documentaire_0"   Name="n4949eb137b4414d9db71d50e3573049" ID="{c2bfd1f5-a972-49f6-9711-a1864aae032b}" />
+
+      <FieldRef   DisplayName="Taxonomy Catch All Column1"   Name="TaxCatchAllLabel" ID="{8f6b6dd8-9357-4019-8172-966fcd502ed2}" />
+      
+
+      <FieldRef   DisplayName="Taxonomy Catch All Column"   Name="TaxCatchAll" ID="{f3b0adf9-c1a2-4b02-920d-943fba4b3611}" />
+
+
+
+
+    </FieldRefs>
+  </ContentType>-->

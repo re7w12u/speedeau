@@ -1,0 +1,115 @@
+﻿
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript">
+
+
+    $(function () {
+        EnableAttachement();
+    });
+
+    // enable attachement on form
+    function EnableAttachement() {
+        // create new link
+        var link = $('<div><input type="button" value="Joindre un fichier" />');
+        link.click(function () {
+            var instance = SP.Ribbon.PageManager.get_instance();
+            if (instance) instance.get_commandDispatcher().executeCommand("Ribbon.ListForm.Edit.Actions.AttachFile", null);
+
+        });
+
+        // add link to form
+        var target = $(".ms-formtoolbar .ms-toolbar img")
+        target.parent().append(link);
+        target.remove();
+    }
+
+
+    /**** load script ************************/
+
+    var css = ["jquery-ui.min.css", "jquery-ui.structure.min.css", "jquery-ui.theme.min.css"];
+    var scripts = ["rnvo.common.js", "rnvo.ih1600.model.js", "rnvo.params.js", "rnvo.ih1600.validation.js", "rnvo.ih1600.ui.js", "rnvo.obs.main.js", "rnvo.notify.js"];
+    var index = 0;
+
+    var siteUrl = _spPageContextInfo.siteServerRelativeUrl;
+    var webUrl = _spPageContextInfo.webServerRelativeUrl;
+
+    function loadSPScripts() {
+        loadCss();
+        $.getScript(siteUrl + SP.Utilities.Utility.get_layoutsLatestVersionUrl() + "SP.Taxonomy.js", loadCustomScripts);
+    }
+
+    function loadCustomScripts() {
+        var scriptbase = siteUrl + '/RNVO_Assets/js/';
+
+        if (index < scripts.length - 1) {
+            // loads all script one by one except the last one
+            $.getScript(scriptbase + scripts[index], loadCustomScripts);
+            index++;
+        }
+        else {
+            // last script loading trigger execution
+            $.getScript(scriptbase + scripts[index], Init);
+        }
+    }
+
+    function loadCss() {
+        for (var x in css) {
+
+            var link = document.createElement('link');
+            link.setAttribute('type', 'text/css');
+            link.setAttribute('rel', 'stylesheet');
+            link.setAttribute('href', siteUrl + '/RNVO_Assets/css/' + css[x]);
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    }
+
+    SP.SOD.executeOrDelayUntilScriptLoaded(loadSPScripts, 'SP.js');
+</script>
+
+
+<style type="text/css">
+    /* hides the form while loading data*/
+    #onetIDListForm > tbody > tr > td > div > div:nth-child(2) {
+        display: none;
+    }
+
+    #obs-loading {
+        text-align: center;
+        text-align: center;
+        width: 600px;
+    }
+
+    #s4-ribbonrow {
+        display: none;
+    }
+</style>
+
+<div class="ms-dlgLoadingTextDiv ms-alignCenter" id="obs-loading">
+    <span style="padding-top: 6px; padding-right: 10px;">
+        <img src="/_layouts/15/images/gears_anv4.gif?rev=23" title="This animation indicates the operation is in progress. Click to remove this animated image.">
+    </span>
+    <span class="ms-core-pageTitle ms-accentText">Veuillez Patienter</span>
+</div>
+
+
+
+
+
+
+
+
+
+<!--<link rel="stylesheet" type="text/html" href="/RNVO_Assets/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/html" href="/RNVO_Assets/css/jquery-ui.structure.min.css" />
+<link rel="stylesheet" type="text/html" href="/RNVO_Assets/css/jquery-ui.theme.min.css" />
+<link rel="stylesheet" type="text/html" href="/RNVO_Assets/css/rnvo.obs.css" />-->
+<!--<script type="text/javascript" src="/RNVO_Assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.common.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.params.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.ih1600.model.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.ih1600.validation.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.obs.main.js"></script>
+<script type="text/javascript" src="/RNVO_Assets/js/rnvo.notify.js"></script>-->
+<!--<div id=""><img src="/RNVO_Assets/img/ajax-loader.gif" alt="Loading..." ><h3>Chargement</h3></div>-->

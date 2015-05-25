@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--Le document <titre> en version <Indice> <Revision> <Statut> a été mis à jour sous l'espace SPeedEau - <Nom du="" site="">.<br/>
+          Il est accessible via le lien suivant: <Nom du="" fichier=""/ hyperlien vers le fichier>-->
+
+<alerte>
+  <subject>SPEEDEAU: nouveau document de référence - {0}</subject>
+  <alerte_body>
+    <![CDATA[un nouveau document de référence a été déposé : {0}<br/><a href="{1}">{2}</a>]]>
+  </alerte_body>
+  <email_body>
+    <![CDATA[Bonjour,<br/>Le document {0} en version {1} {2} {3} a été mis à jour sous l'espace SPeedEau - {4}.<br/>
+Il est accessible via le lien suivant: <a href="{5}">{6}</a>]]>
+  </email_body>
+</alerte>
+
+

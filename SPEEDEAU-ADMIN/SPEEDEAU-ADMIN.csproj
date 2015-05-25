@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E032794-13BC-439B-A495-05B15A237D9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPEEDEAU_ADMIN</RootNamespace>
+    <AssemblyName>SPEEDEAU-ADMIN</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <TokenReplacementFileExtensions>svc</TokenReplacementFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\SPEEDEAU\Lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.SharePoint.Common">
+      <HintPath>..\SPEEDEAU\Lib\Microsoft.Practices.SharePoint.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Taxonomy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\Logging Areas\Logging Areas.EventReceiver.cs">
+      <DependentUpon>Logging Areas.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Services\Services.EventReceiver.cs">
+      <DependentUpon>Services.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\speedeau\TestServices.aspx.cs">
+      <DependentUpon>TestServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\speedeau\TestServices.aspx.designer.cs">
+      <DependentUpon>TestServices.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StrategyHandler.cs" />
+    <Compile Include="Model\DataContract.cs" />
+    <Compile Include="Model\Referentiel.cs" />
+    <Compile Include="Model\Deploiement.cs" />
+    <Compile Include="Model\Observation.cs" />
+    <Compile Include="Model\InfoIH1600.cs" />
+    <Compile Include="Model\Suivi.cs" />
+    <Compile Include="Model\SuiviEntity.cs" />
+    <Compile Include="Model\SuiviInfoEntity.cs" />
+    <Compile Include="Model\TaxonomyValue.cs" />
+    <Compile Include="Model\ValidationStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AlerteService.cs" />
+    <Compile Include="Services\PermissionsService.cs" />
+    <Compile Include="Services\ReferentielService.cs" />
+    <Compile Include="Services\DeploiementService.cs" />
+    <Compile Include="Services\WebPropertiesService.cs" />
+    <Compile Include="Services\ObservationsService.cs" />
+    <Compile Include="Services\ServicesInterfaces.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\SuiviService.cs" />
+    <Compile Include="Util\DeploiementHelper.cs" />
+    <Compile Include="Util\EnumHelper.cs" />
+    <Compile Include="Util\ListHelper.cs" />
+    <Compile Include="Util\Localization.cs" />
+    <Compile Include="Util\LoggerManager.cs" />
+    <Compile Include="Util\ResourceKeys.cs" />
+    <Compile Include="Util\SpeedeauExtensions.cs" />
+    <Compile Include="Util\SpeedeauFieldAttribute.cs" />
+    <Compile Include="Util\SpeedeauHelper.cs" />
+    <Compile Include="Util\TaxonomyHelper.cs" />
+    <Compile Include="WCF\DeploiementWCF.cs" />
+    <Compile Include="WCF\AlerteWCF.cs" />
+    <Compile Include="WCF\PermissionsWCF.cs" />
+    <Compile Include="WCF\SuiviWCF.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ADMIN\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6fe2224b-597b-406b-a21d-2e22b7e49ff7}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Services\Services.feature">
+      <FeatureId>{05a9f679-a1d6-4f37-a59f-15817dca0d87}</FeatureId>
+    </None>
+    <None Include="Features\Logging Areas\Logging Areas.feature">
+      <FeatureId>{9c322ae3-1228-44c4-a09b-e11a4a0c6d6b}</FeatureId>
+    </None>
+    <None Include="ISAPI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7bc9e68-25ed-45fc-a437-d2192ddca38b}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{05ab09d5-2605-439e-8843-4b74991be314}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\Services\Services.Template.xml">
+      <DependentUpon>Services.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Logging Areas\Logging Areas.Template.xml">
+      <DependentUpon>Logging Areas.feature</DependentUpon>
+    </Content>
+    <Content Include="ADMIN\speedeau\TestServices.aspx" />
+    <Content Include="ISAPI\speedeau\Deploiement.svc" />
+    <Content Include="ISAPI\speedeau\Alerte.svc" />
+    <Content Include="ISAPI\speedeau\Permissions.svc" />
+    <Content Include="ISAPI\speedeau\Suivi.svc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

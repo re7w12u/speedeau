@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RNVO_Setup">
+    <File Path="RNVO_Setup\pages\setup.aspx" Url="RNVO_Setup/pages/setup.aspx" />
+    <File Path="RNVO_Setup\js\rnvo.setup.form.js" Url="RNVO_Setup/js/rnvo.setup.form.js" />
+    <File Path="RNVO_Setup\pages\ValidationForm.aspx" Url="RNVO_Setup/pages/ValidationForm.aspx" />
+  </Module>
+</Elements>

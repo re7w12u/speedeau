@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction
+    Id="SingUpAsDifferentUser"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1000"
+    Title="Sign in as Different User">
+    <UrlAction Url="/_layouts/closeConnection.aspx?loginasanotheruser=true"/>
+  </CustomAction>
+  
+</Elements>

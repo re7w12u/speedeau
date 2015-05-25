@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Observations Déploiement"
+                OnQuickLaunch="TRUE" 
+                TemplateType="20100"                 
+                Url="Lists/obs-dep"
+                Description="contient toutes les observations faites sur les document IH1600">    
+  </ListInstance>
+</Elements>
+

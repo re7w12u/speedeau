@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RNVO_MasterPage" >
+    <File Path="RNVO_MasterPage\speedeau_sites.master" Url="_catalogs/masterpage/speedeau_sites.master" Type="GhostableInLibrary" Level="Published" />
+    <File Path="RNVO_MasterPage\speedeau.master" Url="_catalogs/masterpage/speedeau.master" Type="GhostableInLibrary" Level="Published" />
+  </Module>
+</Elements>

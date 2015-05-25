@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<taxonbinder>
+  <siteurl>http://rdits-sp13-dev2/sites/edf</siteurl>
+  <mms_name id="09a001a7-1df5-4ff3-aa10-dbdef88c047c" name="Managed Metadata Service"/>
+  <group_name id="8adf69e0-1b16-4aae-a831-2249fa3f195a" name="SPEEDEAU" />
+  <fields>
+    <!-- field 
+      id = field definition guid
+      name = field definition display name
+      termsetname = term set name
+    -->
+    <field id="749DA0D1-4649-4C25-871B-05F0C07221FC" name="Site DPIH" termsetname="Cartographie sites DPIH" />
+    <field id="7b3734c6-5d83-47fc-8366-daad7792c79a" name="Nature documentaire" termsetname="Natures documents"  />
+    <field id="3dbe4eee-885d-43df-819e-cd6c875b1995" name="Famille documentaire" termsetname="Familles documents" />
+    <field id="7d2bb96f-d7b8-4eab-aef8-096480f99e60" name="Projet"  termsetname="Projets P＆S" />
+    <field id="aae4650b-9c07-434d-9a3b-06d2a43b2235" name="Thème" termsetname="Thèmes documentaires" />
+    <field id="514c6e38-0943-490c-9e49-ad9a1510a6fa" name="Code Projet" termsetname="IH1600-b2-Projet"  />
+    <field id="0f275f76-edaf-48b3-8784-79af274e7789" name="Unité" termsetname="IH1600-a-Unité"  />
+    <field id="47be179e-0208-4b7b-bba4-e0fc3ce1a041" name="Rédaction" termsetname="Acteurs P＆S"  />
+    <field id="9bf65bba-409a-47d9-96da-0267516a39bc" name="Niveau d'études" termsetname="IH1600-b3-Niveau d'étude"  />
+    <field id="87442ed4-8015-4f07-a2a2-ea14db5deaca" name="Système élémentaire" termsetname="IH1600-c2-SystemesElementaires"  />
+    <field id="C845EA0F-BFA1-472E-BF2F-AEEA7C834C94" name="Ensemble cohérent" termsetname="MSH-EC" />
+  </fields>
+</taxonbinder>
+
+

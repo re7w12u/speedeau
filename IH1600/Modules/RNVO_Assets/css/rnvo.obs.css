@@ -1,0 +1,11 @@
+﻿
+/* hides the form while loading data*/
+#onetIDListForm > tbody > tr > td > div > div:nth-child(2){
+    display:none;
+}
+
+#obs-loading{
+    text-align:center;
+    text-align: center;
+    width: 600px;
+}

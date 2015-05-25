@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction ScriptSrc="~sitecollection/RNVO_Assets/js/jquery-1.11.1.min.js" Location="ScriptLink" Sequence="1" ></CustomAction>
+  <CustomAction ScriptSrc="~sitecollection/RNVO_Assets/js/rnvo.cmd.js" Location="ScriptLink" Sequence="6" ></CustomAction>
+  <CustomAction ScriptSrc="~sitecollection/RNVO_Assets/js/rnvo.customize-ui.js" Location="ScriptLink" Sequence="7"></CustomAction>
+
+  <!-- content type référentiel -->
+  <CustomAction
+      Id="DeploiementCustomRibbonTab"
+      Location="CommandUI.Ribbon.ListView"
+      RegistrationId="0x0101002563C36A4FC646B6B144C530443A81D8"
+      Rights="AddListItems"
+      RegistrationType="ContentType">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Tabs._children">
+          <Tab
+            Id="Ribbon.EDFTab.REF"
+            Title="Fonctions"
+            Description="This holds EDF specific commands"
+            Sequence="10001">
+            <Scaling
+              Id="Ribbon.EDFTab.REF.Scaling">
+              <MaxSize
+                Id="Ribbon.EDFTab.REF.MaxSize"
+                GroupId="Ribbon.EDFTab.REF.CustomGroup"
+                Size="FourLarge"/>
+              <Scale
+                Id="Ribbon.EDFTab.REF.Scaling.CustomTabScaling"
+                GroupId="Ribbon.EDFTab.REF.CustomGroup"
+                Size="FourLarge" />
+            </Scaling>
+            <Groups Id="Ribbon.EDFTab.REF.Groups">
+              <Group
+                Id="Ribbon.EDFTab.REF.CustomGroup"
+                Description=""
+                Title="Documents"
+                Sequence="52"
+                Template="Ribbon.Templates.REF.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.REF.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.REF.CustomGroup.UploadDocument"
+                    Command="EDFCustomCmd.UploadDocumentCommand.REF"
+                    Sequence="15"
+                    Description="Nouveau document référentiel"
+                    LabelText="Nouveau document"
+                    TemplateAlias="cust1"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                  <Button
+                    Id="Ribbon.EDFTab.REF.CustomGroup.UploadVersion"
+                    Command="EDFCustomCmd.UploadVersionCommand.REF"
+                    Sequence="16"
+                    Description="Nouvelle version référentiel"
+                    LabelText="Nouvelle version"
+                    TemplateAlias="cust2"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                  <Button
+                    Id="Ribbon.EDFTab.REF.CustomGroup.Update"
+                    Command="EDFCustomCmd.UpdateCommand.REF"
+                    Sequence="17"
+                    Description="Metter à jour les métadonnées d'un document"
+                    LabelText="Mettre à jour les informations"
+                    TemplateAlias="cust3"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-272"
+                    Image32by32Top="-272"/>
+                </Controls>
+              </Group>
+
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.REF.CustomTemplate">
+            <Layout Title="FourLarge" LayoutTitle="FourLarge">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust2"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust3"/>
+                </Row>
+              </Section>
+            </Layout>
+            <Layout
+              Title="OneLargeTwoMedium"  LayoutTitle="OneLargeTwoMedium">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1" />
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="TwoRow">
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust2" />
+                </Row>
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust3" />
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="EDFCustomCmd.UploadDocumentCommand.REF"
+          CommandAction="javascript:showUploadDocumentForm_FromRef();" />
+        <CommandUIHandler
+          Command="EDFCustomCmd.UploadVersionCommand.REF"
+          CommandAction="javascript:showUploadVersionForm_FromRef();" />
+        <CommandUIHandler
+          Command="EDFCustomCmd.UpdateCommand.REF"
+          CommandAction="javascript:showUpdateForm_FromRef();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+
+
+  <!-- content type déploiement -->
+  <CustomAction
+    Id="DeploiementCustomRibbonTab"
+    Location="CommandUI.Ribbon.ListView"
+    RegistrationId="0x010100836ACCAE0B98461C8535E4CF511155E2"
+    RegistrationType="ContentType">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Tabs._children">
+          <Tab
+            Id="Ribbon.EDFTab.DEP"
+            Title="Fonctions"
+            Description="This holds EDF specific commands"
+            Sequence="10001">
+            <Scaling
+              Id="Ribbon.EDFTab.DEP.Scaling">
+              <MaxSize
+                Id="Ribbon.EDFTab.DEP.MaxSize"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup"
+                Size="FourLarge"/>
+              <MaxSize
+                Id="Ribbon.EDFTab.DEP.MaxSize1"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup1"
+                Size="FourLarge"/>
+              <MaxSize
+                Id="Ribbon.EDFTab.DEP.MaxSize2"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup2"
+                Size="FourLarge"/>
+              <Scale
+                Id="Ribbon.EDFTab.DEP.Scaling.CustomTabScaling"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup"
+                Size="FourLarge" />
+              <Scale
+                Id="Ribbon.EDFTab.DEP.Scaling.CustomTabScaling1"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup1"
+                Size="FourLarge" />
+              <Scale
+                Id="Ribbon.EDFTab.DEP.Scaling.CustomTabScaling2"
+                GroupId="Ribbon.EDFTab.DEP.CustomGroup2"
+                Size="FourLarge" />
+            </Scaling>
+            <Groups Id="Ribbon.EDFTab.DEP.Groups">
+              <Group
+                Id="Ribbon.EDFTab.DEP.CustomGroup"
+                Description=""
+                Title="Vérification documentaire"
+                Sequence="52"
+                Template="Ribbon.Templates.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.DEP.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.validation"
+                    Command="EDFCustomCmd.ValidationCommand"
+                    Sequence="15"
+                    Description="Statuer et notifier l'auteur"
+                    LabelText="Statuer et notifier l'auteur"
+                    TemplateAlias="cust1"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-170"
+                    Image32by32Top="-476"/>
+                </Controls>
+              </Group>
+              <Group
+                Id="Ribbon.EDFTab.DEP.CustomGroup1"
+                Description=""
+                Title="Observations"
+                Sequence="58"
+                Template="Ribbon.Templates.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.DEP.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.commentaire"
+                    Command="EDFCustomCmd.CommentCommand"
+                    Sequence="17"
+                    Description="ajouter une nouveau commentaire"
+                    LabelText="Ajouter un commentaire"
+                    TemplateAlias="cust2"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-238"
+                    Image32by32Top="-204"/>
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.voir_observations"
+                    Command="EDFCustomCmd.showObervationsCommand"
+                    Sequence="18"
+                    Description="voir tous les commentaires pour l'élément sélectionné"
+                    LabelText="Voir les commentaires"
+                    TemplateAlias="cust3"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-442"
+                    Image32by32Top="-102"
+                    />
+                </Controls>
+              </Group>
+              <Group
+                Id="Ribbon.EDFTab.DEP.CustomGroup2"
+                Description=""
+                Title="Documents"
+                Sequence="52"
+                Template="Ribbon.Templates.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.DEP.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.UploadDocument"
+                    Command="EDFCustomCmd.UploadCommandNewDocument"
+                    Sequence="15"
+                    Description="Nouveau document"
+                    LabelText="Nouveau document"
+                    TemplateAlias="cust1"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.UploadVersion"
+                    Command="EDFCustomCmd.UploadCommandNewVersion"
+                    Sequence="15"
+                    Description="Nouvelle version"
+                    LabelText="Nouvelle version"
+                    TemplateAlias="cust2"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.Update"
+                    Command="EDFCustomCmd.UpdateCommand"
+                    Sequence="15"
+                    Description="Mettre à jour les propriétés d'un document"
+                    LabelText="Mettre à jour les propriétés"
+                    TemplateAlias="cust3"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-272"
+                    Image32by32Top="-272"/>
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.VersionHistory"
+                    Sequence="20"
+                    Description="voir l'historique des versions"
+                    TemplateAlias="cust4"
+                    Command="ViewVersions"
+                    Image16by16="/_layouts/15/$Resources:core,Language;/images/formatmap16x16.png?rev=23" Image16by16Top="-99" Image16by16Left="-55"
+                    Image32by32="/_layouts/15/$Resources:core,Language;/images/formatmap32x32.png?rev=23" Image32by32Top="-35" Image32by32Left="-171"
+                    LabelText="$Resources:core,cui_ButVersionHistory;"
+                    ToolTipTitle="$Resources:core,cui_ButVersionHistory;"
+                    ToolTipDescription="$Resources:core,cui_STT_ButItemVersionHistory;"/>
+                  <Button
+                    Id="Ribbon.EDFTab.DEP.CustomGroup.Delete"
+                    Sequence="25"
+                    Description="Supprimer le document"
+                    TemplateAlias="cust5"
+                    Command="Delete"
+                    Image16by16="/_layouts/15/$Resources:core,Language;/images/formatmap16x16.png?rev=23" Image16by16Top="-271" Image16by16Left="-271"
+                    Image32by32="/_layouts/15/$Resources:core,Language;/images/formatmap32x32.png?rev=23" Image32by32Top="-69" Image32by32Left="-511"
+                    LabelText="$Resources:core,cui_ButDeleteItem;"
+                    ToolTipTitle="$Resources:core,cui_ButDeleteItem;"
+                    ToolTipDescription="$Resources:core,cui_STT_ButListFormDeleteItem;"/>
+                </Controls>
+              </Group>
+
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.CustomTemplate">
+            <Layout Title="FourLarge" LayoutTitle="FourLarge">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust2"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust3"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="TwoRow">
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust4"/>
+                </Row>
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust5"/>
+                </Row>
+              </Section>
+            </Layout>
+            <Layout
+              Title="OneLargeTwoMedium"  LayoutTitle="OneLargeTwoMedium">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1" />
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="TwoRow">
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust2" />
+                </Row>
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust3" />
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          EnabledScript="javascript:CanValidateAndComment()"
+          Command="EDFCustomCmd.ValidationCommand"
+          CommandAction="javascript:showValidationForm_FromDep();" />
+        <CommandUIHandler
+          EnabledScript="javascript:CanValidateAndComment()"
+          Command="EDFCustomCmd.CommentCommand"
+          CommandAction="javascript:showCommentForm_FromDep();" />
+        <CommandUIHandler
+          EnabledScript="javascript:EnableRibbonBtn()"
+          Command="EDFCustomCmd.UploadCommandNewDocument"
+          CommandAction="javascript:showUploadDocumentForm_FromDep();" />
+        <CommandUIHandler
+          EnabledScript="javascript:EnableRibbonBtn()"
+          Command="EDFCustomCmd.UploadCommandNewVersion"
+          CommandAction="javascript:showUploadVersionForm_FromDep();" />
+        <CommandUIHandler
+          EnabledScript="javascript:EnableRibbonBtn()"
+          Command="EDFCustomCmd.UpdateCommand"
+          CommandAction="javascript:showUpdateForm_FromDep();" />
+        <CommandUIHandler
+          Command="EDFCustomCmd.showObervationsCommand"
+          CommandAction="javascript:showObservationsList_FromDep();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+
+
+  <!-- List de suivi-->
+  <CustomAction
+   Id="SuiviCustomRibbonTab"
+   Location="CommandUI.Ribbon.ListView"
+   RegistrationId="0x01002EFEF4789A2E493C996F705BA3513440"
+   RegistrationType="ContentType">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Tabs._children">
+          <Tab
+            Id="Ribbon.EDFTab"
+            Title="Fonctions"
+            Description="This holds EDF specific commands"
+            Sequence="10001">
+            <Scaling
+              Id="Ribbon.EDFTab.Scaling">
+              <MaxSize
+                Id="Ribbon.EDFTab.MaxSize"
+                GroupId="Ribbon.EDFTab.CustomGroup"
+                Size="FourLarge"/>
+              <MaxSize
+                Id="Ribbon.EDFTab.MaxSize"
+                GroupId="Ribbon.EDFTab.Suivi.Modification"
+                Size="FourLarge"/>
+              <Scale
+                Id="Ribbon.EDFTab.Scaling.CustomTabScaling"
+                GroupId="Ribbon.EDFTab.CustomGroup"
+                Size="FourLarge" />
+              <Scale
+                Id="Ribbon.EDFTab.Scaling.CustomTabScaling1"
+                GroupId="Ribbon.EDFTab.Suivi.Modification"
+                Size="FourLarge" />
+            </Scaling>
+            <Groups Id="Ribbon.EDFTab.Groups">
+              <Group
+                Id="Ribbon.EDFTab.CustomGroup"
+                Description=""
+                Title="Documents"
+                Sequence="52"
+                Template="Ribbon.Templates.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.CustomGroup.Suivi.UploadDocument"
+                    Command="EDFCustomCmd.Suivi.UploadDocument"
+                    Sequence="15"
+                    Description="Nouveau document"
+                    LabelText="Nouveau document"
+                    TemplateAlias="cust1"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                  <Button
+                    Id="Ribbon.EDFTab.CustomGroup.Suivi.UploadVersion"
+                    Command="EDFCustomCmd.Suivi.UploadVersion"
+                    Sequence="20"
+                    Description="Nouvelle version"
+                    LabelText="Nouvelle version"
+                    TemplateAlias="cust2"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-204"
+                    Image32by32Top="-34"/>
+                </Controls>
+              </Group>
+
+              <Group
+                Id="Ribbon.EDFTab.Suivi.Modification"
+                Description=""
+                Title="Liste de suivi"
+                Sequence="52"
+                Template="Ribbon.Templates.CustomTemplate">
+                <Controls Id="Ribbon.EDFTab.CustomGroup.Controls">
+                  <Button
+                    Id="Ribbon.EDFTab.CustomGroup.Suivi.NouvelleLigne"
+                    Command="EDFCustomCmd.Suivi.NouvelleLigne"
+                    Sequence="10"
+                    Description="Nouvel élément"
+                    LabelText="Nouvel élément"
+                    TemplateAlias="cust1"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-340"
+                    Image32by32Top="-204"/>
+                  <Button
+                    Id="Ribbon.EDFTab.CustomGroup.Suivi.ModifierLigne"
+                    Command="EDFCustomCmd.Suivi.ModifLigne"
+                    Sequence="20"
+                    Description="Modifier l'élément"
+                    LabelText="Modifier l'élément"
+                    TemplateAlias="cust2"
+                    Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                    Image32by32Class="CSS Class Selector"
+                    Image32by32Left="-510"
+                    Image32by32Top="-102"/>
+                  <Button
+                   Id="Ribbon.EDFTab.CustomGroup.Suivi.DupliquerLigne"
+                   Command="EDFCustomCmd.Suivi.DuplicateLigne"
+                   Sequence="25"
+                   Description="Dupliquer l'élément"
+                   LabelText="Dupliquer l'élément"
+                   TemplateAlias="cust3"
+                   Image32by32="/_layouts/15/1033/images/formatmap32x32.png"
+                   Image32by32Class="CSS Class Selector"
+                   Image32by32Left="-272"
+                   Image32by32Top="-102"/>
+                  <!--<Button
+                    Id="Ribbon.EDFTab.DEP.Suivi.SupprLigne"
+                    Sequence="30"
+                    Description="Supprimer l'élément"
+                    TemplateAlias="cust4"
+                    Command="Delete"
+                    Image16by16="/_layouts/15/$Resources:core,Language;/images/formatmap16x16.png?rev=23" Image16by16Top="-271" Image16by16Left="-271"
+                    Image32by32="/_layouts/15/$Resources:core,Language;/images/formatmap32x32.png?rev=23" Image32by32Top="-69" Image32by32Left="-511"
+                    LabelText="$Resources:core,cui_ButDeleteItem;"
+                    ToolTipTitle="$Resources:core,cui_ButDeleteItem;"
+                    ToolTipDescription="$Resources:core,cui_STT_ButListFormDeleteItem;"/>-->
+                </Controls>
+              </Group>
+              
+            </Groups>
+          </Tab>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Ribbon.Templates.CustomTemplate">
+            <Layout Title="FourLarge" LayoutTitle="FourLarge">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust2"/>
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust3"/>
+                </Row>
+              </Section>
+
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust4"/>
+                </Row>
+              </Section>
+            </Layout>
+            <Layout
+              Title="OneLargeTwoMedium"  LayoutTitle="OneLargeTwoMedium">
+              <Section Alignment="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode="Large" TemplateAlias="cust1" />
+                </Row>
+              </Section>
+              <Section Alignment="Top" Type="TwoRow">
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust2" />
+                </Row>
+                <Row>
+                  <ControlRef DisplayMode="Medium" TemplateAlias="cust3" />
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      
+      
+      <CommandUIHandlers>
+
+        <CommandUIHandler
+          EnabledScript="javascript:EnableUploadFromListSuivi();"
+          Command="EDFCustomCmd.Suivi.UploadDocument"
+          CommandAction="javascript:showUploadDocumentForm_FromSuivi();" />
+        
+        <CommandUIHandler
+          EnabledScript="javascript:EnableUploadFromListSuivi();"
+          Command="EDFCustomCmd.Suivi.UploadVersion"
+          CommandAction="javascript:showUploadVersionForm_FromSuivi();" />
+
+        <CommandUIHandler
+          EnabledScript="javascript:EnableChangeListSuivi();"
+          Command="EDFCustomCmd.Suivi.ModifLigne"
+          CommandAction="javascript:showModifSuiviForm_FromSuivi();" />
+
+        <CommandUIHandler
+          EnabledScript="javascript:EnableChangeListSuivi();"
+          Command="EDFCustomCmd.Suivi.NouvelleLigne"
+          CommandAction="javascript:showNewSuiviForm_FromSuivi();" />
+
+        <CommandUIHandler
+          EnabledScript="javascript:EnableChangeListSuivi();"
+          Command="EDFCustomCmd.Suivi.DuplicateLigne"
+          CommandAction="javascript:showDuplicateSuiviForm_FromSuivi();" />
+        
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

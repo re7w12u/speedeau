@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RNVO_Assets">
+    <File Path="RNVO_Assets\css\images\ui-bg_flat_0_aaaaaa_40x100.png" Url="RNVO_Assets/css/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_flat_55_fbec88_40x100.png" Url="RNVO_Assets/css/images/ui-bg_flat_55_fbec88_40x100.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_glass_75_d0e5f5_1x400.png" Url="RNVO_Assets/css/images/ui-bg_glass_75_d0e5f5_1x400.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_glass_85_dfeffc_1x400.png" Url="RNVO_Assets/css/images/ui-bg_glass_85_dfeffc_1x400.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_glass_95_fef1ec_1x400.png" Url="RNVO_Assets/css/images/ui-bg_glass_95_fef1ec_1x400.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" Url="RNVO_Assets/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" Url="RNVO_Assets/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <File Path="RNVO_Assets\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" Url="RNVO_Assets/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_217bc0_256x240.png" Url="RNVO_Assets/css/images/ui-icons_217bc0_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_2e83ff_256x240.png" Url="RNVO_Assets/css/images/ui-icons_2e83ff_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_469bdd_256x240.png" Url="RNVO_Assets/css/images/ui-icons_469bdd_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_6da8d5_256x240.png" Url="RNVO_Assets/css/images/ui-icons_6da8d5_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_cd0a0a_256x240.png" Url="RNVO_Assets/css/images/ui-icons_cd0a0a_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_d8e7f3_256x240.png" Url="RNVO_Assets/css/images/ui-icons_d8e7f3_256x240.png" />
+    <File Path="RNVO_Assets\css\images\ui-icons_f9bd01_256x240.png" Url="RNVO_Assets/css/images/ui-icons_f9bd01_256x240.png" />
+    <File Path="RNVO_Assets\css\jquery-ui.min.css" Url="RNVO_Assets/css/jquery-ui.min.css" />
+    <File Path="RNVO_Assets\css\jquery-ui.structure.min.css" Url="RNVO_Assets/css/jquery-ui.structure.min.css" />
+    <File Path="RNVO_Assets\css\jquery-ui.theme.min.css" Url="RNVO_Assets/css/jquery-ui.theme.min.css" />
+    <File Path="RNVO_Assets\css\rnvo.ih1600.css" Url="RNVO_Assets/css/rnvo.ih1600.css" />
+    <File Path="RNVO_Assets\img\ajax-loader.gif" Url="RNVO_Assets/img/ajax-loader.gif" />
+    <File Path="RNVO_Assets\img\ok.png" Url="RNVO_Assets/img/ok.png" />
+    <File Path="RNVO_Assets\img\warning.png" Url="RNVO_Assets/img/warning.png" />
+    <File Path="RNVO_Assets\js\external\jquery\jquery.js" Url="RNVO_Assets/js/external/jquery/jquery.js" />
+    <File Path="RNVO_Assets\js\jquery-1.11.1.min.js" Url="RNVO_Assets/js/jquery-1.11.1.min.js" />
+    <File Path="RNVO_Assets\js\jquery-ui.min.js" Url="RNVO_Assets/js/jquery-ui.min.js" />
+    <File Path="RNVO_Assets\js\jquery-ui.js" Url="RNVO_Assets/js/jquery-ui.js" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.dep.js" Url="RNVO_Assets/js/rnvo.ih1600.dep.js" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.model.js" Url="RNVO_Assets/js/rnvo.ih1600.model.js" />
+    <File Path="RNVO_Assets\js\rnvo.params.js" Url="RNVO_Assets/js/rnvo.params.js" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.ui.js" Url="RNVO_Assets/js/rnvo.ih1600.ui.js" />
+    <File Path="RNVO_Assets\js\RNVO.notify.js" Url="RNVO_Assets/js/RNVO.notify.js" />
+    <File Path="RNVO_Assets\dep_IH1600.html" Url="RNVO_Assets/dep_IH1600.html" />
+    <File Path="RNVO_Assets\img\vao.png" Url="RNVO_Assets/img/vao.png" />
+    <File Path="RNVO_Assets\img\vso.png" Url="RNVO_Assets/img/vso.png" />
+    <File Path="RNVO_Assets\img\vsosc.png" Url="RNVO_Assets/img/vsosc.png" />
+    <File Path="RNVO_Assets\img\vsosv.png" Url="RNVO_Assets/img/vsosv.png" />
+    <File Path="RNVO_Assets\img\update.png" Url="RNVO_Assets/img/update.png" />
+    <File Path="RNVO_Assets\img\upload.png" Url="RNVO_Assets/img/upload.png" />
+    <File Path="RNVO_Assets\img\ajax-loader-fb.gif" Url="RNVO_Assets/img/ajax-loader-fb.gif" />
+
+    <!-- Img -->
+    
+    <!-- css -->
+    <File Path="RNVO_Assets\css\rnvo.obs.css" Url="RNVO_Assets/css/rnvo.obs.css" />
+
+    <!-- this goes to style library -->    
+    <File Path="RNVO_Assets\img\edf.png" Url="Style Library/edf.png" />
+
+    <!-- js -->
+    <File Path="RNVO_Assets\js\rnvo.obs.main.js" Url="RNVO_Assets/js/rnvo.obs.main.js" />
+    <File Path="RNVO_Assets\js\RNVO.obs.js" Url="RNVO_Assets/js/RNVO.obs.js" />
+    <File Path="RNVO_Assets\js\rnvo.cmd.js" Url="RNVO_Assets/js/rnvo.cmd.js" />
+    <File Path="RNVO_Assets\js\RNVO.common.js" Url="RNVO_Assets/js/RNVO.common.js" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.validation.js" Url="RNVO_Assets/js/rnvo.ih1600.validation.js" />
+    
+    <!-- html -->
+    <File Path="RNVO_Assets\NewObsForm.html" Url="RNVO_Assets/NewObsForm.html" />
+    <File Path="RNVO_Assets\DispForm.html" Url="RNVO_Assets/DispForm.html" />
+    <File Path="RNVO_Assets\DispAllObservations.html" Url="RNVO_Assets/DispAllObservations.html" />
+    
+    <!-- this goes to page folder-->
+    <File Path="RNVO_Assets\js\rnvo.validation.main.js" Url="RNVO_Assets/js/rnvo.validation.main.js" />
+    <File Path="RNVO_Assets\css\rnvo.val.css" Url="RNVO_Assets/css/rnvo.val.css" />
+    <File Path="RNVO_Assets\pages\setup.aspx" Url="RNVO_Assets/pages/setup.aspx" />
+    <File Path="RNVO_Assets\js\rnvo.setup.fields.js" Url="RNVO_Assets/js/rnvo.setup.fields.js" />
+    <File Path="RNVO_Assets\js\rnvo.setup.taxonomy.js" Url="RNVO_Assets/js/rnvo.setup.taxonomy.js" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.alertes.js" Url="RNVO_Assets/js/rnvo.ih1600.alertes.js" />
+    <File Path="RNVO_Assets\ref_IH1600.html" Url="RNVO_Assets/ref_IH1600.html" />
+    <File Path="RNVO_Assets\js\rnvo.ih1600.ref.js" Url="RNVO_Assets/js/rnvo.ih1600.ref.js" />
+    <File Path="RNVO_Assets\css\rnvo.global.css" Url="RNVO_Assets/css/rnvo.global.css" />
+    <File Path="RNVO_Assets\AlerteContent_Verification.xml" Url="RNVO_Assets/AlerteContent_Verification.xml" />
+    <File Path="RNVO_Assets\img\feedback.png" Url="RNVO_Assets/img/feedback.png" />
+    <File Path="RNVO_Assets\js\spdo.taxonomy.js" Url="RNVO_Assets/js/spdo.taxonomy.js" />
+    <File Path="RNVO_Assets\js\spdo.taxonomy.methods.js" Url="RNVO_Assets/js/spdo.taxonomy.methods.js" />
+    <File Path="RNVO_Assets\AlerteContent_Referentiel.xml" Url="RNVO_Assets/AlerteContent_Referentiel.xml" />
+  
+    <!-- jslink files -->
+      <!--
+      <File Path="RNVO_Assets\js\jslink\suivi_auteur_rendering.js" Url="RNVO_Assets/js/jslink/suivi_auteur_rendering.js" />
+      <File Path="RNVO_Assets\js\jslink\suivi_revision_rendering.js" Url="RNVO_Assets/js/jslink/suivi_revision_rendering.js" />
+      <File Path="RNVO_Assets\js\jslink\suivi_statutdoc_rendering.js" Url="RNVO_Assets/js/jslink/suivi_statutdoc_rendering.js" />
+      <File Path="RNVO_Assets\js\jslink\suivi_verif_rendering.js" Url="RNVO_Assets/js/jslink/suivi_verif_rendering.js" />
+      <File Path="RNVO_Assets\js\jslink\suivi_indice_rendering.js" Url="RNVO_Assets/js/jslink/suivi_indice_rendering.js" />
+      <File Path="RNVO_Assets\js\jslink\suivi_date_rendering.js" Url="RNVO_Assets/js/jslink/suivi_date_rendering.js" />-->
+    <File Path="RNVO_Assets\js\suivi_rendering.js" Url="RNVO_Assets/js/suivi_rendering.js" />
+    <File Path="RNVO_Assets\js\jslink\suivi_link_rendering.js" Url="RNVO_Assets/js/jslink/suivi_link_rendering.js" />
+    <File Path="RNVO_Assets\js\rnvo.customize-ui.js" Url="RNVO_Assets/js/rnvo.customize-ui.js" />
+    
+    
+    <!-- fichier d'import banque de terms-->
+    
+    <File Path="RNVO_Assets\termes\Termes_Navigation_EDF.csv" Url="RNVO_Assets/termes/Termes_Navigation_EDF.csv" />
+    <File Path="RNVO_Assets\termes\Termes_Navigation_EXT.csv" Url="RNVO_Assets/termes/Termes_Navigation_EXT.csv" />
+  </Module>
+</Elements>

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE6CF885-3549-46E8-A774-676490B731B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IH1600</RootNamespace>
+    <AssemblyName>IH1600</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alertes\Alerte.cs" />
+    <Compile Include="Alertes\DocEventReceiver.cs" />
+    <Compile Include="Alertes\Referentiel_EventReceiver\Referentiel_EventReceiver.cs" />
+    <Compile Include="Alertes\RefEventReceiver\RefEventReceiver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Extensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alertes\Referentiel_EventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af2a2f2e-a63f-4adc-a5e7-cdbf93df11fc}</SharePointProjectItemId>
+    </None>
+    <None Include="Alertes\RefEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2813c3c-8568-4aa3-aab9-c49eafde0f1a}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\SettingsMenu\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ae4bffc1-5b82-461f-b388-5b9be1b12569}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\SignUpAsDifferentUser\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c701913-72f2-4b99-8cfa-84e64dfeafa7}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\AlertesValidation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2ec6cb6a-cccf-419a-a391-295f8a96f8d2}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\Alertes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3774f08c-8f17-4edb-a11b-199222a306bd}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\ContentType_SuiviMSH\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aedef6c8-91d1-462c-b57d-75be52f96d7b}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\ContentType_Obs\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6e2ac8f9-a0ee-421a-8b57-e6fbc5bb7522}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\ContentType_dep\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{438f0691-758d-49a9-bbe7-628c0e9b3e92}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\ContentType_Ref\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d55066ac-87ff-4f54-85dd-3b43e97088e9}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\FieldsDefinition\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e0ebcf9-e46a-42d8-88e7-c738eea70dd0}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\Instance_RNVOAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4756a3e3-d906-40f0-ae41-03ff552c4ed4}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\Instance_RNVOSetup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{53034eba-f91e-408b-954d-3a6b28df7a83}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\CustomTabs\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c75fd02d-3549-4dec-99df-690cf930be82}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\lib_Deploiement\lib_DeploiementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{36d0b416-892b-4b6b-b166-846b9863ba79}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\lib_Deploiement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a2e21445-505a-4e61-8eba-f4f4e1a266fc}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\List_SuiviMSH\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25e1203a-07f8-4a33-8aeb-95560fff9e91}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\list_Observations\list_ObservationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e4bfec3f-73ec-43e4-b008-009cb2a33a18}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\list_Observations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fc469972-b21f-43e4-a937-361e73e78140}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\lib_Referentiel\ReferentielInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55dd4024-90cf-4377-a73b-10d5c2c699c0}</SharePointProjectItemId>
+    </None>
+    <None Include="Definitions\lib_Referentiel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0f71b431-d805-4877-a7ef-4929a0eb1c35}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\RNVO Settings Link\RNVO Settings Link.feature">
+      <FeatureId>{079e1d8b-e48f-41fc-af50-0baa6d4b2f47}</FeatureId>
+    </None>
+    <None Include="Features\RNVO Pages\RNVO Pages.feature">
+      <FeatureId>{38e147dc-c5f8-4ca6-96e1-4c632482f9d9}</FeatureId>
+    </None>
+    <None Include="Features\RNVO MasterPage\RNVO MasterPage.feature">
+      <FeatureId>{8d30c17e-c5e9-4da0-a621-5e10cfc66726}</FeatureId>
+    </None>
+    <None Include="Features\RNVO Web Form Setup\RNVO Web Form Setup.feature">
+      <FeatureId>{cf93718a-2209-4d7a-941a-7c405222d80d}</FeatureId>
+    </None>
+    <None Include="Features\RNVO Assets\RNVO Assets.feature">
+      <FeatureId>{eb9831fc-1357-41ee-9cdf-d4694776439c}</FeatureId>
+    </None>
+    <None Include="Features\RNVO SignUpAs\RNVO SignUpAs.feature">
+      <FeatureId>{35a770bc-2905-4ac7-95e5-4f6746ad0f51}</FeatureId>
+    </None>
+    <None Include="Features\RNVO definitions\RNVO definitions.feature">
+      <FeatureId>{c3aa1b80-3da3-4707-93b7-4243788e85e9}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Modules\RNVO_Assets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bf4e1353-4d5e-4b81-9acc-cda89ebfee0a}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\RNVO_Assets\termes\Termes_Navigation_EDF.csv" />
+    <None Include="Modules\RNVO_Assets\termes\Termes_Navigation_EXT.csv" />
+    <None Include="Modules\RNVO_MasterPage\speedeau.master" />
+    <None Include="Modules\RNVO_MasterPage\speedeau_sites.master" />
+    <None Include="Modules\RNVO_MasterPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fbfa93c6-c034-42c7-a8b9-27ff4ad1b7ba}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\RNVO_Setup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2fce09d9-87a8-4d5a-a25a-731e7a54db2b}</SharePointProjectItemId>
+    </None>
+    <None Include="Modules\SitePages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b7adc953-4af3-4e5e-8367-307564badd12}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{8abe4b66-4b00-4f8e-8475-0922bd697c21}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alertes\Referentiel_EventReceiver\Elements.xml" />
+    <Content Include="Alertes\RefEventReceiver\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CustomActions\SettingsMenu\Elements.xml" />
+    <Content Include="CustomActions\SignUpAsDifferentUser\Elements.xml" />
+    <Content Include="Definitions\AlertesValidation\Elements.xml" />
+    <Content Include="Definitions\AlertesValidation\Schema.xml" />
+    <Content Include="Definitions\Alertes\Elements.xml" />
+    <Content Include="Definitions\Alertes\Schema.xml" />
+    <Content Include="Definitions\ContentType_SuiviMSH\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\ContentType_Obs\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\ContentType_dep\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\ContentType_Ref\Elements.xml" />
+    <Content Include="Definitions\FieldsDefinition\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\Instance_RNVOAssets\Elements.xml" />
+    <Content Include="Definitions\Instance_RNVOSetup\Elements.xml" />
+    <Content Include="CustomActions\CustomTabs\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\lib_Deploiement\EditDlg.htm" />
+    <Content Include="Definitions\lib_Deploiement\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\lib_Deploiement\FileDlg.htm" />
+    <Content Include="Definitions\lib_Deploiement\lib_DeploiementInstance\Elements.xml" />
+    <Content Include="Definitions\lib_Deploiement\Repair.aspx" />
+    <Content Include="Definitions\lib_Deploiement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\lib_Deploiement\Upload.aspx" />
+    <Content Include="Definitions\List_SuiviMSH\Elements.xml" />
+    <Content Include="Definitions\List_SuiviMSH\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\list_Observations\Elements.xml" />
+    <Content Include="Definitions\list_Observations\list_ObservationsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\list_Observations\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\lib_Referentiel\EditDlg.htm" />
+    <Content Include="Definitions\lib_Referentiel\Elements.xml" />
+    <Content Include="Definitions\lib_Referentiel\FileDlg.htm" />
+    <Content Include="Definitions\lib_Referentiel\ReferentielInstance\Elements.xml" />
+    <Content Include="Definitions\lib_Referentiel\Repair.aspx" />
+    <Content Include="Definitions\lib_Referentiel\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Definitions\lib_Referentiel\Upload.aspx" />
+    <Content Include="Features\RNVO Settings Link\RNVO Settings Link.Template.xml">
+      <DependentUpon>RNVO Settings Link.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO Pages\RNVO Pages.Template.xml">
+      <DependentUpon>RNVO Pages.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO MasterPage\RNVO MasterPage.Template.xml">
+      <DependentUpon>RNVO MasterPage.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO Web Form Setup\RNVO Web Form Setup.Template.xml">
+      <DependentUpon>RNVO Web Form Setup.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO Assets\RNVO Assets.Template.xml">
+      <DependentUpon>RNVO Assets.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO SignUpAs\RNVO SignUpAs.Template.xml">
+      <DependentUpon>RNVO SignUpAs.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\RNVO definitions\RNVO definitions.Template.xml">
+      <DependentUpon>RNVO definitions.feature</DependentUpon>
+    </Content>
+    <Content Include="Modules\RNVO_Assets\AlerteContent_Referentiel.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\RNVO_Assets\AlerteContent_Verification.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\RNVO_Assets\css\rnvo.global.css" />
+    <Content Include="Modules\RNVO_Assets\css\rnvo.val.css" />
+    <Content Include="Modules\RNVO_Assets\img\ajax-loader-fb.gif" />
+    <Content Include="Modules\RNVO_Assets\img\feedback.png" />
+    <Content Include="Modules\RNVO_Assets\img\update.png" />
+    <Content Include="Modules\RNVO_Assets\img\upload.png" />
+    <Content Include="Modules\RNVO_Assets\js\jquery-ui.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_auteur_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_date_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_indice_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_revision_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_statutdoc_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_verif_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.customize-ui.js" />
+    <Content Include="Modules\RNVO_Assets\js\spdo.taxonomy.methods.js" />
+    <Content Include="Modules\RNVO_Assets\js\spdo.taxonomy.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.ref.js" />
+    <Content Include="Modules\RNVO_Assets\DispForm.html" />
+    <Content Include="Modules\RNVO_Assets\js\jslink\suivi_link_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\DispAllObservations.html" />
+    <Content Include="Modules\RNVO_Assets\js\suivi_rendering.js" />
+    <Content Include="Modules\RNVO_Assets\ref_IH1600.html" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.alertes.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.setup.fields.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.setup.taxonomy.js" />
+    <Content Include="Modules\RNVO_Assets\pages\setup.aspx" />
+    <Content Include="Modules\RNVO_MasterPage\Elements.xml" />
+    <Content Include="Modules\RNVO_Setup\js\rnvo.setup.form.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.validation.main.js" />
+    <Content Include="Modules\RNVO_Setup\pages\setup.aspx" />
+    <Content Include="Modules\RNVO_Assets\NewObsForm.html" />
+    <Content Include="Modules\RNVO_Assets\css\rnvo.obs.css" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.cmd.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.common.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.obs.main.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.obs.js" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Modules\RNVO_Assets\css\jquery-ui.min.css" />
+    <Content Include="Modules\RNVO_Assets\css\jquery-ui.structure.min.css" />
+    <Content Include="Modules\RNVO_Assets\css\jquery-ui.theme.min.css" />
+    <Content Include="Modules\RNVO_Assets\css\rnvo.ih1600.css" />
+    <Content Include="Modules\RNVO_Assets\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\RNVO_Assets\dep_IH1600.html" />
+    <Content Include="Modules\RNVO_Assets\img\ajax-loader.gif" />
+    <Content Include="Modules\RNVO_Assets\img\edf.png" />
+    <Content Include="Modules\RNVO_Assets\img\ok.png" />
+    <Content Include="Modules\RNVO_Assets\img\vao.png" />
+    <Content Include="Modules\RNVO_Assets\img\vso.png" />
+    <Content Include="Modules\RNVO_Assets\img\vsosc.png" />
+    <Content Include="Modules\RNVO_Assets\img\vsosv.png" />
+    <Content Include="Modules\RNVO_Assets\img\warning.png" />
+    <Content Include="Modules\RNVO_Assets\js\external\jquery\jquery.js" />
+    <Content Include="Modules\RNVO_Assets\js\jquery-1.11.1.min.js" />
+    <Content Include="Modules\RNVO_Assets\js\jquery-ui.min.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.dep.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.model.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.validation.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.params.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.ih1600.ui.js" />
+    <Content Include="Modules\RNVO_Assets\js\rnvo.notify.js" />
+    <Content Include="Modules\RNVO_Setup\Elements.xml" />
+    <Content Include="Modules\RNVO_Setup\pages\ValidationForm.aspx" />
+    <Content Include="Modules\SitePages\Elements.xml" />
+    <Content Include="Modules\SitePages\observations.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

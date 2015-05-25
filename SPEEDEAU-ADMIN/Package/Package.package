@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="05ab09d5-2605-439e-8843-4b74991be314" solutionId="05ab09d5-2605-439e-8843-4b74991be314" resetWebServer="false" sharePointProductVersion="15.0" name="SPEEDEAU_ADMIN" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Microsoft.Practices.ServiceLocation.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\SPEEDEAU\Lib\Microsoft.Practices.ServiceLocation.dll" />
+    <customAssembly location="Microsoft.Practices.SharePoint.Common.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\SPEEDEAU\Lib\Microsoft.Practices.SharePoint.Common.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="9c322ae3-1228-44c4-a09b-e11a4a0c6d6b" />
+    <featureReference itemId="05a9f679-a1d6-4f37-a59f-15817dca0d87" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="6fe2224b-597b-406b-a21d-2e22b7e49ff7" />
+    <projectItemReference itemId="d7bc9e68-25ed-45fc-a437-d2192ddca38b" />
+  </projectItems>
+</package>

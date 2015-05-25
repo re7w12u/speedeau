@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<alerte>
+  
+  <!-- "Document vérifié : <Titre du document> version <Indice Révision Statut>: <Statut de vérif>" -->
+  
+  <subject>Document vérifié: {0} version {1} {2} {3} : {4}</subject>
+
+<!--
+  ​Le format du mail
+
+  Bonjour,
+
+  le document <titre du="" document="">
+    <Codification>
+      <Indice>
+        <Revision>
+          <Statut>
+            a été vérifié. Son statut est: <Statut de="" vérification="" (Acronyme=""/libellé)>
+            Lien vers le document:
+            <lien vers="" le="" document="">
+              Liste des commentaires:
+              <Titre des="" commentaires="">
+  -->
+  <email_body>
+    <![CDATA[<p>le document {0} {1} - {2}{3} - {4} a été vérifié. <br/>Son statut est: {5} - {6}<br/>{7}</p>{8}]]>
+  </email_body>
+
+  <alerte_body>
+    <![CDATA[]]>
+  </alerte_body>
+  
+</alerte>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100D781A5E7B4864164AD41FD260BF491F0" Name="Observations" Group="EDF" Description="définit les colonnes nécessaires pour effectuer les observations sur un document" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{08fb84c3-83ac-43fa-8a1c-63f458b3a96c}" DisplayName="Observation" Required="FALSE" Name="observation" NumLines="6" Sortable="FALSE" />
+      <FieldRef ID="{f3a671da-ad2f-45e6-ba08-90a450f5af57}" DisplayName="document" Required="FALSE" Name="document"  />
+      <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Name="Indice" />
+      <FieldRef ID="{ab3e4ffe-a10f-4de6-90aa-12102f7db9f8}" DisplayName="Révision" Required="FALSE" Name="EDFRevision"  />
+      <FieldRef ID="{FE3A30C6-667A-47D2-8485-32CB1831DA16}" DisplayName="Validée" Required="FALSE" Name="OBS_Validated" />
+      <FieldRef ID="{748fbc80-a7c6-4040-a74d-f7885c0ce821}" DisplayName="Status Documentaire" Format="RadioButtons" Name="Status" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

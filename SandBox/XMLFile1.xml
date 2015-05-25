@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<Field ID="{749da0d1-4649-4c25-871b-05f0c07221fc}" Type="TaxonomyFieldType" DisplayName="Site DPIH" ShowField="Term1036" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" StaticName="EDF_Site" Name="EDF_Site" Description="Site géographique parmi l'ensemble de sites géographiques définis selon le découpage DPIH" SourceID="{30b52acc-efe3-494a-8a23-1931358a5528}" List="{f710852a-983d-40fb-980b-ed85865d98cf}" WebId="30b52acc-efe3-494a-8a23-1931358a5528" Version="1" ColName="int12" RowOrdinal="0">
+  <Customization>
+    <ArrayOfProperty>
+      <Property>
+        <Name>SspId</Name>
+        <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">2bb03614-ee0e-4f62-884b-5aa041a72bcc</Value>
+      </Property>
+      <Property>
+        <Name>GroupId</Name>
+      </Property>
+      <Property>
+        <Name>TermSetId</Name>
+        <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">54382e13-78cf-4091-add7-56090b4b5dd4</Value>
+      </Property>
+      <Property>
+        <Name>AnchorId</Name>
+        <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000000</Value>
+      </Property>
+      <Property>
+        <Name>UserCreated</Name>
+        <Value xmlns:q4="http://www.w3.org/2001/XMLSchema" p4:type="q4:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>Open</Name>
+        <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>TextField</Name>
+        <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{352eb708-3fc0-4757-b11a-b345e2b11540}</Value>
+      </Property>
+      <Property>
+        <Name>IsPathRendered</Name>
+        <Value xmlns:q7="http://www.w3.org/2001/XMLSchema" p4:type="q7:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>IsKeyword</Name>
+        <Value xmlns:q8="http://www.w3.org/2001/XMLSchema" p4:type="q8:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>TargetTemplate</Name>
+      </Property>
+      <Property>
+        <Name>CreateValuesInEditForm</Name>
+        <Value xmlns:q9="http://www.w3.org/2001/XMLSchema" p4:type="q9:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>FilterAssemblyStrongName</Name>
+        <Value xmlns:q10="http://www.w3.org/2001/XMLSchema" p4:type="q10:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">Microsoft.SharePoint.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Value>
+      </Property>
+      <Property>
+        <Name>FilterClassName</Name>
+        <Value xmlns:q11="http://www.w3.org/2001/XMLSchema" p4:type="q11:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">Microsoft.SharePoint.Taxonomy.TaxonomyField</Value>
+      </Property>
+      <Property>
+        <Name>FilterMethodName</Name>
+        <Value xmlns:q12="http://www.w3.org/2001/XMLSchema" p4:type="q12:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">GetFilteringHtml</Value>
+      </Property>
+      <Property>
+        <Name>FilterJavascriptProperty</Name>
+        <Value xmlns:q13="http://www.w3.org/2001/XMLSchema" p4:type="q13:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">FilteringJavascript</Value>
+      </Property>
+    </ArrayOfProperty>
+  </Customization>
+</Field>
+
+
+
+<Field ID="{749da0d1-4649-4c25-871b-05f0c07221fc}" Type="TaxonomyFieldType" DisplayName="Site DPIH" ShowField="Term1036" Required="FALSE" EnforceUniqueValues="FALSE" Group="EDF" StaticName="EDF_Site" Name="EDF_Site" Description="Site géographique parmi l'ensemble de sites géographiques définis selon le découpage DPIH" SourceID="{30b52acc-efe3-494a-8a23-1931358a5528}" List="{f710852a-983d-40fb-980b-ed85865d98cf}" WebId="30b52acc-efe3-494a-8a23-1931358a5528" Version="1" ColName="int1" RowOrdinal="0">
+  <Customization>
+    <ArrayOfProperty>
+      <Property>
+        <Name>SspId</Name>
+        <Value xmlns:q1="http://www.w3.org/2001/XMLSchema" p4:type="q1:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">2bb03614-ee0e-4f62-884b-5aa041a72bcc</Value>
+      </Property>
+      <Property>
+        <Name>GroupId</Name>
+      </Property>
+      <Property>
+        <Name>TermSetId</Name>
+        <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">54382e13-78cf-4091-add7-56090b4b5dd4</Value>
+      </Property>
+      <Property>
+        <Name>AnchorId</Name>
+        <Value xmlns:q3="http://www.w3.org/2001/XMLSchema" p4:type="q3:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000000</Value>
+      </Property>
+      <Property>
+        <Name>UserCreated</Name>
+        <Value xmlns:q4="http://www.w3.org/2001/XMLSchema" p4:type="q4:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>Open</Name>
+        <Value xmlns:q5="http://www.w3.org/2001/XMLSchema" p4:type="q5:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>TextField</Name>
+        <Value xmlns:q6="http://www.w3.org/2001/XMLSchema" p4:type="q6:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{352eb708-3fc0-4757-b11a-b345e2b11540}</Value>
+      </Property>
+      <Property>
+        <Name>IsPathRendered</Name>
+        <Value xmlns:q7="http://www.w3.org/2001/XMLSchema" p4:type="q7:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>IsKeyword</Name>
+        <Value xmlns:q8="http://www.w3.org/2001/XMLSchema" p4:type="q8:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>TargetTemplate</Name>
+      </Property>
+      <Property>
+        <Name>CreateValuesInEditForm</Name>
+        <Value xmlns:q9="http://www.w3.org/2001/XMLSchema" p4:type="q9:boolean" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+      </Property>
+      <Property>
+        <Name>FilterAssemblyStrongName</Name>
+        <Value xmlns:q10="http://www.w3.org/2001/XMLSchema" p4:type="q10:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">Microsoft.SharePoint.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Value>
+      </Property>
+      <Property>
+        <Name>FilterClassName</Name>
+        <Value xmlns:q11="http://www.w3.org/2001/XMLSchema" p4:type="q11:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">Microsoft.SharePoint.Taxonomy.TaxonomyField</Value>
+      </Property>
+      <Property>
+        <Name>FilterMethodName</Name>
+        <Value xmlns:q12="http://www.w3.org/2001/XMLSchema" p4:type="q12:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">GetFilteringHtml</Value>
+      </Property>
+      <Property>
+        <Name>FilterJavascriptProperty</Name>
+        <Value xmlns:q13="http://www.w3.org/2001/XMLSchema" p4:type="q13:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">FilteringJavascript</Value>
+      </Property>
+    </ArrayOfProperty>
+  </Customization>
+</Field>
+</root>

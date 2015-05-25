@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01002EFEF4789A2E493C996F705BA3513440" Name="Suivi MSH" Group="EDF" Description="Suivi des documents liés au déploiement d'une opération sur un site géographique donné." Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{749DA0D1-4649-4C25-871B-05F0C07221FC}" DisplayName="Site DPIH" Required="FALSE" Description="Site géographique parmi l'ensemble de sites géographiques définis selon le découpage DPIH" Name="EDF_Site" />
+      <FieldRef ID="{352EB708-3FC0-4757-B11A-B345E2B11540}" DisplayName="EDF_Site_0" Required="FALSE" Hidden="TRUE" Name="EDF_Site_0" ShowInNewForm="FALSE" />
+      <FieldRef ID="{3DBE4EEE-885D-43DF-819E-CD6C875B1995}" DisplayName="Famille documentaire" Required="FALSE" Description="Famile de regroupement documentaire" Name="EDF_Typologie" />
+      <FieldRef ID="{A5034D85-8EE0-4E1B-BC2E-075D87DCCC13}" DisplayName="EDF_Typologie_0" Required="FALSE" Hidden="TRUE" Name="EDF_Typologie_0" ShowInNewForm="FALSE" />
+      <FieldRef ID="{7b3734c6-5d83-47fc-8366-daad7792c79a}" DisplayName="Nature documentaire" Required="FALSE" Description="Classement du document dans les natures documentaires définies par les usages RenouvEau P&amp;S" Name="Nature_documentaire" />
+      <FieldRef ID="{6e1bc14d-87fe-4112-8464-3d5a96dc0d20}" DisplayName="Nature_Documentaire_0" Required="FALSE" Hidden="TRUE" Name="Nature_Documentaire_0" />
+      <FieldRef ID="{47be179e-0208-4b7b-bba4-e0fc3ce1a041}" DisplayName="Rédaction" Required="FALSE" Description="Colonne permettant de définir l'entreprise, entité ou rôle en charge de la réalisation du document" Name="EDF_Redaction" />
+      <FieldRef ID="{046c3c79-8fbc-4714-aa12-440efaa4524f}" DisplayName="Rédaction_0" Required="FALSE" Hidden="TRUE" Name="k7be179e02084b7bbba4e0fc3ce1a041" />
+      <FieldRef ID="{0f275f76-edaf-48b3-8784-79af274e7789}" DisplayName="Unité" Required="FALSE" Description="Unité (max. 2 caractères) pour la définition de la codification documentaire selon IH1600. Par défaut = IH" Name="EDF_Unite" />
+      <FieldRef ID="{86c1cf9d-0221-4532-8577-48651a074b4d}" DisplayName="Unité_0" Required="FALSE" Hidden="TRUE" Name="gf275f76edaf48b3878479af274e7789" />
+      <FieldRef ID="{87442ed4-8015-4f07-a2a2-ea14db5deaca}" DisplayName="Système élémentaire" Required="FALSE" Description="Pour les documents techniques: Codification fonctionnelle du Système élémentaire concerné, sur trois caractères ou *: CEI (Eaux industrielles, potable, Incendie), CHY (Circuits hydrauliques, CXH (Circuit d'exhaures), DEC (Eclairage et force motrice), DVE (Ventilation et extraction), JDU (Système de sécurité incendie), JPT (Protection incendie transformateurs), KAG (Automatisme des services généraux), KAP (Automatisme principal des groupes), KCD (Automate de conduite), KCE (Calculateur de consignation d'états), KMN (Mesure de niveau), KRN (Régulation et mesure de vitesse), KSC (Salle de commande), LBT (Auxiliaires électriques alternatifs BT), LEV (Evacuation d'énergie), LCC (Auxiliaires à CC), LEX (Excitation et régulation de tension), LGE (Groupes électrogène), LHQ (Auxiliaires électriques ininiterruptibles), LMT (Auxiliaires électriques HTA), LTR (Circuit de terre), LTT (Télécommunications), MAC (Air comprimé), MTB (Turbine), VGD (Vanne de garde groupe, VTC (Vanne de tête de conduite), etc." Name="EDF_Systeme_Elementaire" />
+      <FieldRef ID="{9aa3e394-75f2-46ed-8125-ef32a9c97344}" DisplayName="Systèmes élémentaire_0" Required="FALSE" Hidden="TRUE" Name="o7442ed480154f07a2a2ea14db5deaca" />
+      <FieldRef ID="{7D2BB96F-D7B8-4EAB-AEF8-096480F99E60}" DisplayName="Projet" Required="FALSE" Description="Projet auquel se réfère un contenu (document, etc.)" Name="EDF_Projet" />
+      <FieldRef ID="{36B95E9C-931F-457F-8C9A-90051DBC44FA}" DisplayName="EDF_Projet_0" Required="FALSE" Hidden="TRUE" Name="EDF_Projet_0" ShowInNewForm="FALSE" />
+      <FieldRef ID="{514c6e38-0943-490c-9e49-ad9a1510a6fa}" DisplayName="Code Projet" Required="FALSE" Description="Code projet pour la définition de la codification documentaire selon IH1600" Name="EDF_CodeProjet" />
+      <FieldRef ID="{23e64e96-d446-4172-ade8-59e9a3e87d73}" DisplayName="EDF_CodeProjet_0" Required="FALSE" Hidden="TRUE" Name="nf5ad536135346a7be6a4e803c702365" />
+      <FieldRef ID="{256ed3a8-f6de-47a8-a208-0592a30ba0cb}" DisplayName="Codification" Required="FALSE" Description="Codification du document" Name="Codification" />
+      <FieldRef ID="{83A4C743-F80B-49FE-BA4E-0739751A184B}" DisplayName="CodificationSystem" Name="CodificationSystem" Hidden="TRUE" />
+      <FieldRef ID="{59c7ad74-4149-4052-bdc9-9fc83156edec}" DisplayName="Indice" Required="FALSE" Description="Date à laquelle la version &quot;BPE&quot; du document a été publiée (Renseignée lors de la dépose d'un document BPE)" Name="EDFVersion" />
+      <FieldRef ID="{9ebe1c00-5cd6-4aea-9432-ee55a7210579}" DisplayName="Opération" Required="FALSE" Description="Nom de l'opération pour laquelle la liste de suivi est instanciée" Name="EDF_Operation" />
+      <FieldRef ID="{c1138fac-b944-41c8-b544-0d9de452be36}" DisplayName="Fourniture" Required="FALSE" Description="Indication permettant de définir l'événement cible pour la fourniture du document" Name="EDF_Fourniture" />
+      <FieldRef ID="{c8ae8b3e-f553-4347-8ca3-1b86f9f48e18}" DisplayName="Date cible" Required="FALSE" Description="Date cible pour la fourniture d'un livrable" Name="EDF_Date_cible" Format="DateOnly" />
+      <FieldRef ID="{dbeed181-1ba6-486a-96dc-98f4ec30448a}" DisplayName="Numéro Chrono" Required="FALSE" Description="Numéro chrono utilisé pour la construction du code IH1600" Name="EDF_Numero_Chrono" />
+      <FieldRef ID="{fec85a1b-dad8-4cda-9aa3-e07175abde47}" DisplayName="Découpage - lot" Required="FALSE" Description="Code du découpage géographique selon IH1600: 000 pour les travaux communs ou de 001 à 099 pour les petits projets ou de 010 à 990 pour les grands projets, permettant d'identifier le groupe, les ouvrages, centrales, bâtiments, postes d'évacuation d'énergie, etc… concernés par les travaux.&#xD;&#xA;&#xD;&#xA;Pour les documents techniques (T): Découpage géographique (3 chiffres)&#xD;&#xA;Pour les documents résultats:  Lot concerné (Lettres ou *)" Name="EDF_Decoupage_Lot" />
+      <FieldRef ID="{15d9ff01-9e69-4380-8262-c485c894c6f5}" DisplayName="Temps estimé (h)" Required="FALSE" Description="Temps estimé nécessaire à la production du livrable, en heures" Name="EDF_Temps_Estime" />
+      <FieldRef ID="{30d808bc-713d-437d-b9ef-11dbf9ed3377}" DisplayName="Reste à faire (h)" Required="FALSE" Description="Reste à faire pour la rédaction du document, en heures" Name="EDF_Reste_A_Faire" />
+      <FieldRef ID="{1e4bcf1e-fae8-4327-848e-43281ae52265}" DisplayName="R/T" Required="FALSE" Description="Résultat ou Technique" Name="EDF_RT" Format="Dropdown" />
+      <FieldRef ID="{84a20d0b-a81b-42e7-a5b4-a6d037f8bde0}" DisplayName="Observation_rnvo" Required="FALSE" Name="EDF_ListB5_Obs" NumLines="6" Sortable="FALSE" />
+      <FieldRef ID="{14dacf5d-65f2-434a-8d9c-51a1f3984553}" DisplayName="Requis" Required="FALSE" Description="Indique si le document est requis ou non pour un déploiement donné." Name="EDF_Requis" />
+      <FieldRef ID="{9b50bd69-8f44-4c48-b0b5-d91277e05396}" DisplayName="Code centrale" Required="FALSE" Description="Code centrale (max. 6 caractères) pour la définition de la codification documentaire selon IH1600" Name="EDF_Code_centrale" />
+      <FieldRef ID="{f2c91e81-acb8-4fd9-8837-0aefeda281d1}" DisplayName="Complément" Required="FALSE" Description="Pour les documents résultat: Complément facultatif" Name="EDF_Complement" />
+      <FieldRef ID="{a101396c-d03e-4da1-963b-f959440670c4}" DisplayName="Format demandé" Required="FALSE" Description="Format demandé pour les documents livrables" Name="EDF_Format_Demande" />
+      <FieldRef ID="{c143d446-cdab-42b4-a1bf-96f03a576f8e}" DisplayName="Vérificateur" Required="FALSE" Name="EDF_Verificateur" />
+      <FieldRef ID="{7b0a14cd-c512-4e4c-853a-03c6915f1eaf}" DisplayName="Approbateur" Required="FALSE" Name="EDF_Approbateur" />
+
+      <FieldRef DisplayName="Livr. Exploitant" ID="{df12080f-c6d2-423f-83bf-f600d7e470af}"  Name="Exploitant_Livr"/>
+      <FieldRef DisplayName="Exploitant Date" Description="" ID ="{63DB6BEF-6478-4869-8B05-D5D512C0887E}" Name="Exploitant_Date" />
+      <FieldRef DisplayName="Exploitant Format" Description="" ID ="{A5B42930-EAEE-4167-BCFA-D296E27460D2}" Name="Exploitant_Format" />
+      <FieldRef DisplayName="Exploitant Stockage" Description="" ID ="{B416BA17-DA68-4F1D-934B-C12DB0DD54EC}" Name="Exploitant_Stockage" />
+
+      <FieldRef DisplayName="Livr. MCO" Description="Indique si le document doit être fourni à la MCO" ID="{e2290a3b-81f2-494d-b1ef-ecaab1dfb2a3}"  Name="MCO_Livr" />
+      <FieldRef DisplayName="MCO Date" Description="" ID ="{5A196FF4-B498-4A34-B2D5-2E082CD145D8}" Name="MCO_Date" />
+      <FieldRef DisplayName="MCO Format" Description="" ID ="{B748B6CD-2F14-4C2E-BA23-64D68C7E8F8A}" Name="MCO_Format" />
+      <FieldRef DisplayName="MCO Stockage" Description="" ID ="{528B4CD1-B936-4E14-8CD9-1E8C4AF34D67}" Name="MCO_Stockage" />
+
+      <FieldRef DisplayName="Livr. Intégrateur" Description="Indique si le document doit être fourni à l'intégrateur" ID="{d524a041-00a4-468b-a277-a9f46c818451}" Name="Integrateur_Livr" />
+      <FieldRef DisplayName="Intégrateur Date" Description="" ID ="{A6F86C33-96A9-4623-BF47-790ECB65F3B8}" Name="Integrateur_Date" />
+      <FieldRef DisplayName="Intégrateur Format" Description="" ID ="{5BA4FF27-7807-49DB-AA8C-FFB9B235BADE}" Name="Integrateur_Format" />
+      <FieldRef DisplayName="Intégrateur Stockage" Description="" ID ="{7F58DBB9-23D0-47DA-B683-70C7F60B767C}" Name="Integrateur_Stockage" />
+
+      <FieldRef DisplayName="Livr. DTG" Description="Indique si le document doit être fourni à la DTG" ID="{353733c9-d549-4c5e-ba38-cf903c329737}" Name="DTG_Livr" />
+      <FieldRef DisplayName="DTG Date" Description="" ID ="{CFA05FA4-B272-43DB-BC17-2A543BE45D73}" Name="DTG_Date" />
+      <FieldRef DisplayName="DTG Format" Description="" ID ="{923EBB06-1895-4ECB-8FBD-63146A4676C3}" Name="DTG_Format" />
+      <FieldRef DisplayName="DTG Stockage" Description="" ID ="{5ECB34F4-7FFF-4DAD-85AE-DB7FC6363F2F}" Name="DTG_Stockage" />
+
+      <FieldRef DisplayName="Livr. Tableautier" Description="Indique si le document doit être fourni au tableautier" ID="{fc5ac977-9704-4ac1-a2ab-6a4530c2b0e8}" Name="Tableautier_Livr" />
+      <FieldRef DisplayName="Tableautier Date" Description="" ID ="{FE931FB1-0246-42FF-A291-B23860B044E5}" Name="Tableautier_Date" />
+      <FieldRef DisplayName="Tableautier Format" Description="" ID ="{9C37B24B-5678-47A9-9A80-1A8F55F21B78}" Name="Tableautier_Format" />
+      <FieldRef DisplayName="Tableautier Stockage" Description="" ID ="{D9138100-73C5-4CCC-AF6B-2FADFDB8500A}" Name="Tableautier_Stockage" />
+      
+      <FieldRef ID="{1d7d420d-230c-4753-9e04-4c455fcc7219}" DisplayName="Type MSH" Required="FALSE" Name="EDF_Type_MSH" Format="Dropdown" />
+      <FieldRef ID="{9bf65bba-409a-47d9-96da-0267516a39bc}" DisplayName="Niveau d'études" Required="FALSE" Description="Niveau d'études pour la définition de la codification documentaire selon IH1600" Name="EDF_Niveau_Etudes" />
+      <FieldRef ID="{90d2c95a-ca90-4eaf-804a-3750aea701b8}" DisplayName="Niveau d'études_0" Required="FALSE" Hidden="TRUE" Name="pbf65bba409a47d996da0267516a39bc" />
+      <FieldRef ID="{F475275A-A4A0-4A68-AC6E-DB39F5450029}" DisplayName="Suivi" Required="false" Name="SPDO_Suivi" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

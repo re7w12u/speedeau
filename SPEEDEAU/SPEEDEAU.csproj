@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3D37710-1280-449C-A70E-071A0A9F5805}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPEEDEAU</RootNamespace>
+    <AssemblyName>SPEEDEAU</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.SharePoint.Common, Version=2.0.0.0, Culture=neutral, PublicKeyToken=ef4330804b3c4129, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Microsoft.Practices.SharePoint.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Taxonomy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.CommandUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONTROLTEMPLATES\speedeau\SpeedeauRibbonUC.ascx.cs">
+      <DependentUpon>SpeedeauRibbonUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\speedeau\SpeedeauRibbonUC.ascx.designer.cs">
+      <DependentUpon>SpeedeauRibbonUC.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\configuration\configuration.EventReceiver.cs">
+      <DependentUpon>configuration.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\check_codification.aspx.cs">
+      <DependentUpon>check_codification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\check_codification.aspx.designer.cs">
+      <DependentUpon>check_codification.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\DocumentPicker.aspx.cs">
+      <DependentUpon>DocumentPicker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\DocumentPicker.aspx.designer.cs">
+      <DependentUpon>DocumentPicker.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\NewDeploiement.aspx.cs">
+      <DependentUpon>NewDeploiement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\NewDeploiement.aspx.designer.cs">
+      <DependentUpon>NewDeploiement.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\NewReferentiel.aspx.cs">
+      <DependentUpon>NewReferentiel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\NewReferentiel.aspx.designer.cs">
+      <DependentUpon>NewReferentiel.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\settings.aspx.cs">
+      <DependentUpon>settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\settings.aspx.designer.cs">
+      <DependentUpon>settings.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\SuiviEdit.aspx.cs">
+      <DependentUpon>SuiviEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPEEDEAU\SuiviEdit.aspx.designer.cs">
+      <DependentUpon>SuiviEdit.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\speedeau.msg.Designer.cs">
+      <DependentUpon>speedeau.msg.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\speedeau.core.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>speedeau.core.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\speedeau.fields.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>speedeau.fields.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\speedeau.validator.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>speedeau.validator.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\speedeau.mms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>speedeau.mms.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c18f9936-5f55-40ca-813d-7fc605344656}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomActions\HideShowMenus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af3c4699-f0fe-45c1-a7f4-ed95d5410082}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\configuration\configuration.feature">
+      <FeatureId>{b20a3939-e176-4a78-9c8d-a6b74554e20b}</FeatureId>
+    </None>
+    <None Include="Features\HideShowMenus\HideShowMenus.feature">
+      <FeatureId>{877d927f-aed1-46d5-a496-c73061065273}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5c28d4be-0092-4068-9499-17a47755bd10}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{612caeb5-e179-4ac9-a5c9-5783d675a00c}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{12e0221a-73cc-48b6-a164-bbb2c27a652a}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{17da36e3-a97c-4f7c-ba01-fed8bce7efc7}</SharePointProjectItemId>
+    </None>
+    <None Include="XSL\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{584fa5a8-8758-47b0-bf9c-ad394000f52e}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SPEEDEAU-ADMIN\SPEEDEAU-ADMIN.csproj">
+      <Project>{0e032794-13bc-439b-a495-05b15a237d9f}</Project>
+      <Name>SPEEDEAU-ADMIN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\speedeau\SpeedeauRibbonUC.ascx" />
+    <Content Include="CustomActions\HideShowMenus\Elements.xml" />
+    <Content Include="Features\configuration\configuration.Template.xml">
+      <DependentUpon>configuration.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\HideShowMenus\HideShowMenus.Template.xml">
+      <DependentUpon>HideShowMenus.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\SPEEDEAU\logo_edf.png" />
+    <Content Include="Layouts\SPEEDEAU\check_codification.aspx" />
+    <Content Include="Layouts\SPEEDEAU\DocumentPicker.aspx" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\external\jquery\jquery.js" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-icons_222222_256x240.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-icons_454545_256x240.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-icons_888888_256x240.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\index.html" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-1.11.1.min.js" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.css" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.js" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.min.css" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.min.js" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.structure.css" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.structure.min.css" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.theme.css" />
+    <Content Include="Layouts\SPEEDEAU\js\jquery\jquery-ui.theme.min.css" />
+    <Content Include="Layouts\SPEEDEAU\NewDeploiement.aspx" />
+    <Content Include="Layouts\SPEEDEAU\NewReferentiel.aspx" />
+    <Content Include="Layouts\SPEEDEAU\settings.aspx" />
+    <Content Include="Layouts\SPEEDEAU\jslink\ref_clienttemplate.js" />
+    <Content Include="Layouts\SPEEDEAU\jslink\dep_clienttemplate.js" />
+    <Content Include="Layouts\SPEEDEAU\jslink\suivi_clienttemplate.js" />
+    <Content Include="Layouts\SPEEDEAU\SuiviEdit.aspx" />
+    <Content Include="Layouts\speedeau_deploiement.js" />
+    <Content Include="Lib\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="Lib\Microsoft.Practices.SharePoint.Common.dll" />
+    <Content Include="XSL\custom_views.xsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\speedeau.validator.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>speedeau.validator.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\speedeau.core.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>speedeau.core.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\speedeau.fields.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>speedeau.fields.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\speedeau.msg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>speedeau.msg.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\speedeau.mms.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>speedeau.mms.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
